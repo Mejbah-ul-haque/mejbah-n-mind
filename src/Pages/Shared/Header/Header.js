@@ -9,8 +9,11 @@ const Header = () => {
                     <Navbar.Brand href="#home">Mejbah & Mind</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="#journalism">Journalism</Nav.Link>
+                        <Nav.Link href="#books">Books</Nav.Link>
+                        <Nav.Link href="#news">News</Nav.Link>
+                        <Nav.Link href="#blogs">Blogs</Nav.Link>
+                        <Nav.Link href="#about">About me</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
