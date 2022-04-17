@@ -2,13 +2,33 @@ import React from 'react';
 import google from '../../../Images/Social/google.png';
 import facebook from '../../../Images/Social/facebook.jpg';
 import github from '../../../Images/Social/github.jpg';
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import { useNavigate } from 'react-router-dom';
 
 
 const SocialLogin = () => {
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const navigate = useNavigate();
+    let errorElement;
+    if (error) {
+        errorElement = <div>
+            <p className='text-danger'>Error: {error.message}</p>
+        </div>
+
+    }
+
+    if (user) {
+        navigate('/service/:serviceId');
+    }
     return (
         <div>
             <div className='text-center'>
-                <button style={{ backgroundColor: '#333377' }} className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
+                {errorElement}
+                <button
+                    onClick={() => signInWithGoogle()}
+                    style={{ backgroundColor: '#333377' }}
+                    className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
                     <img style={{ width: '40px' }} src={google} alt="" />
                     <span className='px-2'>Google Sign In</span>
                 </button>
