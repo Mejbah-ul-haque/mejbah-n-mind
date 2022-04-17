@@ -6,7 +6,7 @@ import journalism3 from '../../../Images/Banner/journalism3.jpg';
 
 const Banner = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container'>
             <Carousel fade>
                 <Carousel.Item>
                     <img
