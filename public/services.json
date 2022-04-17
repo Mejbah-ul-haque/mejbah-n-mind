@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Breaking",
+        "name": "BREAKING NEWS",
         "price": 45,
         "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
-        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/breaking.jpg"
+        "image": "https://i.ibb.co/rt3cj7X/breaking.jpg"
     },
     {
         "id": 2,
-        "name": "World",
+        "name": "WORLD NEWS",
         "price": 40,
-        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
-        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/world.jpg"
+        "description": "You will soon be able to know the news of what is happening in any part of the world. If you are logged in here, the world is in your hands.",
+        "image": "https://i.ibb.co/MpqwjrG/world.jpg"
     },
     {
         "id": 3,
-        "name": "Exclusive",
+        "name": "EXCLUSIVE",
         "price": 42,
-        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
-        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/world.jpg"
+        "description": "My job as a journalism is to bring up exclusive events and present on you. Before the mainstream media you can find the real story from here.",
+        "image": "https://i.ibb.co/zsF6q7W/exclusive.jpg "
     },
     {
         "id": 4,
-        "name": "Sports",
+        "name": "SPORT NEWS",
         "price": 60,
-        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
-        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/sports.jpg"
+        "description": "Here you will find news of all sports like cricket, football, hockey etc. Apart from that, you can also read the interviews of your favorite players.",
+        "image": "https://i.ibb.co/nb0LLdZ/sports.jpg"
     },
     {
         "id": 5,
-        "name": "Feature",
+        "name": "FEATURE",
         "price": 30,
-        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
-        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/feature.jpg"
+        "description": "You want to read those feature, there are not been publicized in media. This section has been arranged with various exceptional features.",
+        "image": "https://i.ibb.co/9v1nqGj/feature.jpg"
     },
     {
         "id": 6,
-        "name": "Travel",
+        "name": "TRAVEL NEWS",
         "price": 25,
-        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
-        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/travel.jpg"
+        "description": "Who doesn't like to travel! But good guidelines about travel are not always available. But here I have arranged the travel issues from my own experience.",
+        "image": "https://i.ibb.co/cJk6hjv/travel.jpg"
     }
 ]

@@ -2,16 +2,19 @@
     {
         "id": 1,
         "title": "My Mission",
+        "logo": "M",
         "text": "My mission is to create a great reporter community. Those who will truly be the mirror of the society and the state. Wherever he sees any injustice, he will fearlessly present it in the media."
     },
     {
         "id": 2,
         "title": "My Vision",
+        "logo": "V",
         "text": "My mission is to create a great reporter community. Those who will truly be the mirror of the society and the state. Wherever he sees any injustice, he will fearlessly present it in the media."
     },
     {
         "id": 3,
-        "title": "My Model",
+        "title": "My Ambition",
+        "logo": "A",
         "text": "My mission is to create a great reporter community. Those who will truly be the mirror of the society and the state. Wherever he sees any injustice, he will fearlessly present it in the media."
     }
 ]

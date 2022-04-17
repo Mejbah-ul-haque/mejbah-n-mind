@@ -5,7 +5,6 @@ import Goal from '../Goal/Goal';
 const Goals = () => {
 
     const [goals, setGoals] = useState([]);
-    console.log(goals);
 
     useEffect(() => {
         fetch('goals.json')
@@ -14,8 +13,7 @@ const Goals = () => {
     }, [])
 
     return (
-        <div className='container'>
-            <h4 className='text-center mt-5'>GOALS <span className='text-success fw-bold'>2022</span></h4>
+        <div className='container mt-5'>
             <div className='row'>
                 {
                     goals.map(goal => <Goal
