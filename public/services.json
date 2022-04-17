@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Breaking",
+        "price": 45,
+        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
+        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/breaking.jpg"
+    },
+    {
+        "id": 2,
+        "name": "World",
+        "price": 40,
+        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
+        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/world.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Exclusive",
+        "price": 42,
+        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
+        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/world.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sports",
+        "price": 60,
+        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
+        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/sports.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Feature",
+        "price": 30,
+        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
+        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/feature.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Travel",
+        "price": 25,
+        "description": "If you login here, you will get the breaking news first. I'll let you know before it's published in mainstream media or social media.",
+        "image": "https://github.com/Mejbah-ul-haque/services-images/blob/main/travel.jpg"
+    }
+]
