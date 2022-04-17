@@ -37,27 +37,31 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-50 mx-auto'>
-            <h2 className='text-dark text-center mt-3'>Please Login</h2>
-            <SocialLogin></SocialLogin>
-            <Form onSubmit={handleSubmit}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
-                </Form.Group>
+        <div className='container'>
+            <div className="row">
+                <div className="col-sm-12 col-md-9 col-lg-6 mx-auto">
+                    <h2 className='text-dark text-center mt-3'>Please Login</h2>
+                    <SocialLogin></SocialLogin>
+                    <Form onSubmit={handleSubmit}>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label>Email address</Form.Label>
+                            <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
+                        </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button style={{ backgroundColor: 'gray', color: 'black' }} className='rounded-pill w-50 d-block mx-auto my-4 fw-bold fs-5' variant="dark" type="submit">
-                    Submit Now
-                </Button>
-            </Form>
-            <p className='text-center '>New to Mejbah & Mind? <Link to='/register' className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label>Password</Form.Label>
+                            <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                            <Form.Check type="checkbox" label="Check me out" />
+                        </Form.Group>
+                        <Button style={{ backgroundColor: 'gray', color: 'black' }} className='rounded-pill w-50 d-block mx-auto my-4 fw-bold fs-5' variant="dark" type="submit">
+                            Submit Now
+                        </Button>
+                    </Form>
+                    <p className='text-center '>New to Mejbah & Mind? <Link to='/register' className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+                </div>
+            </div>
         </div>
     );
 };
