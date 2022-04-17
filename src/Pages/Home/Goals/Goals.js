@@ -15,7 +15,7 @@ const Goals = () => {
 
     return (
         <div className='container'>
-            <h4 className='text-center mt-5'>GOALS</h4>
+            <h4 className='text-center mt-5'>GOALS <span className='text-success fw-bold'>2022</span></h4>
             <div className='row'>
                 {
                     goals.map(goal => <Goal
