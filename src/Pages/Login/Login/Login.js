@@ -16,12 +16,16 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    if (user) {
+        navigate('/service/:serviceId');
+    }
+
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
 
-        console.log(email, password);
+        signInWithEmailAndPassword(email, password);
     }
 
     const navigateRegister = event => {
