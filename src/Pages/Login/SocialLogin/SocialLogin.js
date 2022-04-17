@@ -2,23 +2,24 @@ import React from 'react';
 import google from '../../../Images/Social/google.png';
 import facebook from '../../../Images/Social/facebook.jpg';
 import github from '../../../Images/Social/github.jpg';
-import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
 
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGithub, user1, loading1, error1] = useSignInWithGithub(auth);
     const navigate = useNavigate();
     let errorElement;
-    if (error) {
+    if (error || error1) {
         errorElement = <div>
-            <p className='text-danger'>Error: {error.message}</p>
+            <p className='text-danger'>Error: {error?.message}{error1?.message}</p>
         </div>
 
     }
 
-    if (user) {
+    if (user || user1) {
         navigate('/service/:serviceId');
     }
     return (
@@ -32,11 +33,17 @@ const SocialLogin = () => {
                     <img style={{ width: '40px' }} src={google} alt="" />
                     <span className='px-2'>Google Sign In</span>
                 </button>
-                <button style={{ backgroundColor: '#336699' }} className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
+                <button
+
+                    style={{ backgroundColor: '#336699' }}
+                    className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
                     <img style={{ width: '40px' }} src={facebook} alt="" />
                     <span className='px-2'>Facebook Sign In</span>
                 </button>
-                <button style={{ backgroundColor: 'black' }} className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
+                <button
+                    onClick={() => signInWithGithub()}
+                    style={{ backgroundColor: 'black' }}
+                    className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
                     <img style={{ width: '40px' }} src={github} alt="" />
                     <span className='px-2'>Github Sign In</span>
                 </button>
