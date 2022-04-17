@@ -5,20 +5,6 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-            <Navbar bg="light" variant="light">
-                <Container>
-                    <Navbar.Brand style={{ fontWeight: 'bold', fontSize: "1.4rem" }} href="#home">Mejbah & Mind</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#journalism">Journalism</Nav.Link>
-                        <Nav.Link href="#books">Books</Nav.Link>
-                        <Nav.Link href="#news">News</Nav.Link>
-                        <Nav.Link href="#blogs">Blogs</Nav.Link>
-                        <Nav.Link href="#about">About me</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
-            <br />
             <Navbar collapseOnSelect expand="lg" bg="light" sticky='top' variant="light">
                 <Container>
                     <Navbar.Brand style={{ fontWeight: 'bold', fontSize: "1.4rem" }} as={Link} to="/">Mejbah & Mind</Navbar.Brand>
@@ -27,8 +13,6 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="/journalism">Journalism</Nav.Link>
-                            <Nav.Link as={Link} to="/books">Books</Nav.Link>
-                            <Nav.Link as={Link} to="/news">News</Nav.Link>
                             <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
 
                             <NavDropdown title="News" id="collasible-nav-dropdown">
@@ -42,8 +26,8 @@ const Header = () => {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link as={Link} to="/about">About me</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
+                            <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link as={Link} to="/login">
                                 Login
                             </Nav.Link>
                         </Nav>
