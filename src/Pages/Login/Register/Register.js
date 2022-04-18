@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css';
@@ -7,6 +7,7 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Register = () => {
+    const [agree, setAgree] = useState(false);
     const [
         createUserWithEmailAndPassword,
         user,
@@ -28,9 +29,10 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-
-        createUserWithEmailAndPassword(email, password);
-
+        // const agree = event.target.terms.checked;
+        if (agree) {
+            createUserWithEmailAndPassword(email, password);
+        }
     }
 
     return (
@@ -44,6 +46,8 @@ const Register = () => {
                             <input type="text" name='name' id='' placeholder='Your Name' />
                             <input type="email" name='email' id='' placeholder=' Email Address' required />
                             <input type="password" name='password' id='' placeholder='Inter Password' required />
+                            <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
+                            <label className={agree ? 'text-primary' : 'text-danger'} htmlFor="terms"><span className='ms-2'>Accept Mejbah & Mind's terms and conditions</span></label>
                             <input className='rounded-pill border border-dark w-50 register-button fw-bold mt-4' type="submit" value="Register Now" />
                         </form>
                         <p className='text-center'>Already have an account? <Link to='/login' className='text-primary pe-auto text-decoration-none fw-bold' onClick={navigateLogin}>Please Login</Link></p>
