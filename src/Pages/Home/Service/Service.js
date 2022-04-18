@@ -17,7 +17,7 @@ const Service = ({ service }) => {
 
                 <p className='p-2'>{description}</p>
 
-                <button onClick={() => navigateToServiceDetail(id)} className='btn w-80' style={{ backgroundColor: '#062952', color: 'white' }}>Book : {name}</button>
+                <button onClick={() => navigateToServiceDetail(id)} className='btn bg-dark w-80' style={{ backgroundColor: 'black', color: 'white', borderRadius: '0' }}>Book : {name}</button>
             </div>
         </div>
     );

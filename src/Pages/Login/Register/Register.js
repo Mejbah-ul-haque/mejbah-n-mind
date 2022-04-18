@@ -44,9 +44,9 @@ const Register = () => {
                             <input type="text" name='name' id='' placeholder='Your Name' />
                             <input type="email" name='email' id='' placeholder=' Email Address' required />
                             <input type="password" name='password' id='' placeholder='Inter Password' required />
-                            <input className='rounded-pill w-50 register-button fw-bold mt-4' type="submit" value="Register Now" />
+                            <input className='rounded-pill border border-dark w-50 register-button fw-bold mt-4' type="submit" value="Register Now" />
                         </form>
-                        <p className='text-center'>Already have an account? <Link to='/login' className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
+                        <p className='text-center'>Already have an account? <Link to='/login' className='text-primary pe-auto text-decoration-none fw-bold' onClick={navigateLogin}>Please Login</Link></p>
                     </div>
                 </div>
             </div>
