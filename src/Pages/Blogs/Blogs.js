@@ -7,7 +7,7 @@ const Blogs = () => {
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="card bg-light mt-4">
-                        <div style={{ backgroundColor: 'lightcyan' }} className="card-body">
+                        <div style={{ backgroundColor: 'lightgray' }} className="card-body">
                             <h5 style={{ color: 'coral' }} className="card-title"><span className='fs-3 fw-bold me-2 text-primary'>Q.1</span>Difference between authorization and authentication?</h5>
                             <p className="card-text ms-5"><span className='fs-4 me-2'>Ans.</span> Authentication and authorization are two separate steps of login. Although the two words look or sound alike, they are quite different.
                                 Authentication are verifies credentials, it is visible to the user.
@@ -18,7 +18,7 @@ const Blogs = () => {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="card bg-light mt-4">
-                        <div style={{ backgroundColor: 'lightcyan' }} className="card-body">
+                        <div style={{ backgroundColor: 'lightgray' }} className="card-body">
                             <h5 style={{ color: 'coral' }} className="card-title"><span className='fs-3 fw-bold me-2 text-primary'>Q.2</span>Why are you using firebase? What other options do you have to implement authentication?</h5>
                             <p className="card-text ms-5"><span className='fs-4 me-2'>Ans.</span> Firebase is a great platform for creating web and mobile applications. Login authentication system can be easily created here. In addition to Firebase, there are several other authentication platforms.
                                 Such as Parse, Back4App, AWS Amplify, Kuzzle, Couchbase, NativeScript, RxDB, Flutter etc.
@@ -29,7 +29,7 @@ const Blogs = () => {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="card bg-light mt-4">
-                        <div style={{ backgroundColor: 'lightcyan' }} className="card-body">
+                        <div style={{ backgroundColor: 'lightgray' }} className="card-body">
                             <h5 style={{ color: 'coral' }} className="card-title"><span className='fs-3 fw-bold me-2 text-primary'>Q.3</span>What other services does firebase provide other authentication?</h5>
                             <p className="card-text ms-5"><span className='fs-4 me-2'>Ans.</span> In addition to creating authentication systems, Firebase also provides many other services. This is a platform for creating web and mobile applications. It has made developer's life much easier. Firebase is a Backend-as-a-Service. It provides developers with a variety of tools and services to help them develop quality apps.
 
