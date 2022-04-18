@@ -6,7 +6,7 @@ import Services from '../Services/Services';
 
 const Home = () => {
     return (
-        <div >
+        <div style={{ minHeight: '100vh' }}>
             <Banner></Banner>
             <Goals></Goals>
             <Services></Services>

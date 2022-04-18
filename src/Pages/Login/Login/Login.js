@@ -63,7 +63,7 @@ const Login = () => {
     }
 
     return (
-        <div className='container'>
+        <div style={{ minHeight: '100vh' }} className='container'>
             <div className="row">
                 <div className="col-sm-12 col-md-9 col-lg-6 mx-auto">
                     <h2 className='text-dark text-center mt-3'>Please Login</h2>

@@ -31,7 +31,7 @@ const Blogs = () => {
                     <div className="card bg-light mt-4">
                         <div style={{ backgroundColor: 'lightcyan' }} className="card-body">
                             <h5 style={{ color: 'coral' }} className="card-title"><span className='fs-3 fw-bold me-2 text-primary'>Q.3</span>What other services does firebase provide other authentication?</h5>
-                            <p className="card-text ms-5"><span className='fs-4 me-2'>Ans.</span> In addition to creating authentication systems, Firebase also provides many other services. This is a platform for creating web and mobile applications. It has made developer's life easier. Firebase is a Backend-as-a-Service. It provides developers with a variety of tools and services to help them develop quality apps.
+                            <p className="card-text ms-5"><span className='fs-4 me-2'>Ans.</span> In addition to creating authentication systems, Firebase also provides many other services. This is a platform for creating web and mobile applications. It has made developer's life much easier. Firebase is a Backend-as-a-Service. It provides developers with a variety of tools and services to help them develop quality apps.
 
                             </p>
                         </div>

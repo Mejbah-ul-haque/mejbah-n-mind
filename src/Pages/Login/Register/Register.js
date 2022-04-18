@@ -4,7 +4,6 @@ import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-fireb
 import './Register.css';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import { async } from '@firebase/util';
 import Loading from '../../Shared/Loading/Loading';
 
 
@@ -28,10 +27,6 @@ const Register = () => {
         return <Loading></Loading>
     }
 
-    if (user) {
-        console.log('user', user);
-    }
-
     const handleRegister = async (event) => {
         event.preventDefault();
         const name = event.target.name.value;
@@ -46,7 +41,7 @@ const Register = () => {
     }
 
     return (
-        <div className="container">
+        <div style={{ minHeight: '100vh' }} className="container">
             <div className="row">
                 <div className="col-sm-12 col-md-9 col-lg-6 mx-auto">
                     <div className='register-form'>
