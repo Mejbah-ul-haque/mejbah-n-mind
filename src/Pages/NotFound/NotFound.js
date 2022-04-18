@@ -2,8 +2,14 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div className='mx-auto mt-12 md:w-1/2'>
-            <img src={require('../../Images/NotFound/notFound.png')} />
+        <div className="container">
+            <div className="row">
+                <div className="col-sm-12 text-center">
+                    <div className='  m-5'>
+                        <img className='img-fluid' src={require('../../Images/NotFound/notFound.png')} />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
