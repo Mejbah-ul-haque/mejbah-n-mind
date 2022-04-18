@@ -27,7 +27,6 @@ const Footer = () => {
                             <p className='mt-4'><Link className='text-light text-decoration-none border rounded-pill p-2' to="/breaking">Feature News</Link></p>
                             <p className='mt-4'><Link className='text-light text-decoration-none border rounded-pill p-2' to="/breaking">Travel News</Link></p>
                         </div>
-
                     </div>
                 </div>
             </div>
