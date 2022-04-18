@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 const ServiceDetail = () => {
     const { serviceId } = useParams();
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
             <h2>This is Service Detail page : {serviceId}</h2>
             <div className='text-center'>
                 <Link to="/checkout">
