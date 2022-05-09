@@ -1,0 +1,15 @@
+.nav-style {
+    color: white !important;
+    background-color: black;
+    margin-right: 10px;
+    color: aliceblue;
+
+}
+
+.nav-style:hover {
+    background-color: #198754;
+}
+
+#collasible-nav-dropdown {
+    color: white;
+}

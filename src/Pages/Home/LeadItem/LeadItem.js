@@ -7,7 +7,7 @@ const LeadItem = () => {
 
             <div className="row">
 
-                <div className="col-sm-12 col-md-12 col-lg-10 mx-auto my-5">
+                <div className="col-sm-12 col-md-12 col-lg-10 mx-auto mt-2 mb-5">
                     <div className="card border-0">
                         <div className="row g-0">
                             <div className="col-md-6 d-flex align-items-center">

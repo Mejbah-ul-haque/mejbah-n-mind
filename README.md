@@ -1,13 +1,13 @@
 # Project Name : Mejbah & Mind
 A journalist, who provide individual services.
 
-## Project Live Link :https://github.com/programming-hero-web-course-4/product-analysis-website-Mejbah-ul-haque
+## Project Live Link :https://mejbah-n-mind.web.app/
 
- ## Mejbah & Mind [Live Link](https://github.com/programming-hero-web-course-4/product-analysis-website-Mejbah-ul-haque).
+ ## Mejbah & Mind [Live Link](https://mejbah-n-mind.web.app/).
 
-## Github Link :https://github.com/programming-hero-web-course-4/product-analysis-website-Mejbah-ul-haque
+## Github Link :https://github.com/programming-hero-web-course-4/independent-service-provider-Mejbah-ul-haque/tree/main/src
 
- ## Mejbah & Mind [Live Link](https://github.com/programming-hero-web-course-4/product-analysis-website-Mejbah-ul-haque).
+ ## Mejbah & Mind [Live Link](https://github.com/programming-hero-web-course-4/independent-service-provider-Mejbah-ul-haque/tree/main/src).
 
 
 ## I have done the following bellow...

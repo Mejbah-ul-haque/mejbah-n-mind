@@ -4,6 +4,7 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import './Header.css';
 
 const Header = () => {
     const [user] = useAuthState(auth);
@@ -14,17 +15,17 @@ const Header = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="light" sticky='top' variant="light">
-                <Container>
-                    <Navbar.Brand style={{ fontWeight: 'bold', fontSize: "1.4rem" }} as={Link} to="/">Mejbah & Mind</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar collapseOnSelect expand="lg" bg="white" sticky='top' variant="light">
+                <Container className='shadow-lg px-3 py-2 bg-body mt-3'>
+                    <Navbar.Brand style={{ fontSize: "2rem", color: 'black' }} as={Link} to="/">Mejbah<span className='text-secondary'>&</span>Mind</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link as={Link} to="/">Home</Nav.Link>
-                            <Nav.Link href="home#services">Journalism</Nav.Link>
-                            <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className='nav-style' as={Link} to="/">Home</Nav.Link>
+                            <Nav.Link className='nav-style' href="home#services">Journalism</Nav.Link>
+                            <Nav.Link className='nav-style' as={Link} to="/blogs">Blogs</Nav.Link>
 
-                            <NavDropdown title="News" id="collasible-nav-dropdown">
+                            <NavDropdown className='nav-style text-light' title="News" id="collasible-nav-dropdown">
                                 <NavDropdown.Item as={Link} to="/breaking/3.1">Breaking</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/world/3.2">World</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/exclusive/3.3">Exclusive</NavDropdown.Item>
@@ -35,12 +36,12 @@ const Header = () => {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link className='nav-style' as={Link} to="/about">About</Nav.Link>
                             {
                                 user ?
-                                    <button className='btn btn-link text-decoration-none text-dark' onClick={handleSignOut}>sign out</button>
+                                    <button style={{ backgroundColor: 'black', color: 'white' }} className='btn btn-link text-decoration-none' onClick={handleSignOut}>Sign Out</button>
                                     :
-                                    <Nav.Link as={Link} to="/login">
+                                    <Nav.Link className='nav-style' as={Link} to="/login">
                                         Login
                                     </Nav.Link>}
                         </Nav>
