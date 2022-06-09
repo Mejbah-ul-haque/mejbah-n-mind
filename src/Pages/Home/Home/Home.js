@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div style={{ minHeight: '100vh' }}>
             <LeadItem></LeadItem>
-            <Banner></Banner>
+            {/* <Banner></Banner> */}
             <Goals></Goals>
             <Services></Services>
             <Special></Special>

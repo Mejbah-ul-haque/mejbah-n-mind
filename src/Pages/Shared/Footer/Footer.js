@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ backgroundColor: 'black' }} className='text-center text-light py-2'>
+            <div style={{ backgroundColor: '#0b1228' }} className='text-center text-light py-2'>
                 <p><small> &copy; {year} Mejbah & Mind. All rights reserved.</small></p>
             </div>
         </footer>

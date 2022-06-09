@@ -1,13 +1,14 @@
 .nav-style {
     color: white !important;
-    background-color: black;
+    background-color: #111b3b;
     margin-right: 10px;
     color: aliceblue;
 
 }
 
 .nav-style:hover {
-    background-color: #198754;
+    color: red !important;
+
 }
 
 #collasible-nav-dropdown {
