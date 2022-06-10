@@ -20,7 +20,7 @@
         "name": "JOURNALIST PORTFOLIO",
         "project": "Project No-3",
         "features": "A wonderful home page with responsive navbar, banner carousel, realistic footer. ",
-        "technologies": "React.js, Express.js, CSS3, Tailwind CSS, Mongodb, Heroku, Firebase.",
+        "technologies": "React.js, Express.js, CSS3, Tailwind CSS, Firebase.",
         "image": "https://i.ibb.co/Dz813cF/project3.jpg "
     },
     {
@@ -28,7 +28,7 @@
         "name": "FOOTBALL ZONE",
         "project": "Project No-4",
         "features": "A wonderful home page with responsive navbar, banner carousel, realistic footer. ",
-        "technologies": "React.js, Express.js, CSS3, Tailwind CSS, Mongodb, Heroku, Firebase.",
+        "technologies": "React.js,  CSS3, Tailwind CSS, ",
         "image": "https://i.ibb.co/h2yYHgf/project4.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "name": "SOCCER BALL",
         "project": "Project No-5",
         "features": "A wonderful home page with responsive navbar, banner carousel, realistic footer. ",
-        "technologies": "React.js, Express.js, CSS3, Tailwind CSS, Mongodb, Heroku, Firebase.",
+        "technologies": " CSS3, Tailwind CSS, Mongodb, ",
         "image": "https://i.ibb.co/4STHNtB/project5.jpg"
     },
     {
@@ -44,7 +44,7 @@
         "name": "COUNTRIES DETAILS",
         "project": "Project No-6",
         "features": "A wonderful home page with responsive navbar, banner carousel, realistic footer. ",
-        "technologies": "React.js, Express.js, CSS3, Tailwind CSS, Mongodb, Heroku, Firebase.",
+        "technologies": " CSS3, Tailwind CSS, ",
         "image": "https://i.ibb.co/Sf8VtTY/project6.jpg"
     }
 ]
