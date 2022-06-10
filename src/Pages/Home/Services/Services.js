@@ -4,9 +4,10 @@ import Service from '../Service/Service';
 const Services = () => {
 
     const [services, setServices] = useState([]);
+    console.log(services);
 
     useEffect(() => {
-        fetch('services.json')
+        fetch('https://mejba-n-mind.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
@@ -17,7 +18,7 @@ const Services = () => {
             <div className='row'>
                 {
                     services.map(service => <Service
-                        key={service.id}
+                        key={service._id}
                         service={service}
                     ></Service>)
                 }

@@ -25,37 +25,31 @@ const SocialLogin = () => {
     }
 
     if (user || user1) {
-        navigate('/service/:serviceId');
+        navigate('/service/:id');
     }
     return (
         <div>
-            <div className='text-center'>
+            <div className='text-center d-flex justify-content-center my-4'>
                 {errorElement}
                 <button
                     onClick={() => signInWithGoogle()}
-                    style={{ backgroundColor: '#333377' }}
-                    className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
+                    
+                    className='btn border rounded mt-2 text-light d-block mx-auto p-0'>
                     <img style={{ width: '40px' }} src={google} alt="" />
-                    <span className='px-2'>Google Sign In</span>
                 </button>
                 <button
-
-                    style={{ backgroundColor: '#336699' }}
-                    className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
+                    className='btn border rounded mt-2 text-light d-block mx-auto p-0'>
                     <img style={{ width: '40px' }} src={facebook} alt="" />
-                    <span className='px-2'>Facebook Sign In</span>
                 </button>
                 <button
                     onClick={() => signInWithGithub()}
-                    style={{ backgroundColor: 'black' }}
-                    className='btn rounded-pill w-50 mt-2 text-light d-block mx-auto p-0'>
+                    className='btn border rounded mt-2 text-light d-block mx-auto p-0'>
                     <img style={{ width: '40px' }} src={github} alt="" />
-                    <span className='px-2'>Github Sign In</span>
                 </button>
             </div>
             <div className='d-flex align-items-center'>
                 <div style={{ height: '1px' }} className='bg-secondary w-50'></div>
-                <p className='mt-3 p-2'>OR</p>
+                <p className='mt-3 p-2 text-danger'>OR</p>
                 <div style={{ height: '1px' }} className='bg-secondary w-50'></div>
             </div>
         </div>

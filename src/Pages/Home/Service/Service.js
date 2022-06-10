@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import "./Service.css"
 
 const Service = ({ service }) => {
-    const { id, name, project, image, technologies, features } = service;
+    const { _id, name, project, image, technologies, features } = service;
+    
     const navigate = useNavigate();
     const navigateToServiceDetail = id => {
         navigate(`/service/${id}`);
@@ -22,7 +23,7 @@ const Service = ({ service }) => {
                 <p className=' text-start text-secondary'>Technologies :</p>
                 <p className='text-light text-start'>  {technologies}</p>
 
-                <button onClick={() => navigateToServiceDetail(id)} className='service-btn btn px-4 text-success border border-success rounded-pill py-2 my-3' >See Details</button>
+                <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-success rounded-pill py-2 my-3' >See Details</button>
             </div>
         </div>
     );

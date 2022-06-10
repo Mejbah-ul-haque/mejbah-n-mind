@@ -16,8 +16,8 @@ const Resume = () => {
 	return (
 		<div className="container">
 			{/* <button onClick={handleClick} className="btn btn-danger d-block mx-auto rounded-pill px-5 my-5">Download Resume</button> */}
-			<a href={resume} download>
-				<button className="btn btn-danger d-block mx-auto rounded-pill px-5 my-5">
+			<a className="text-decoration-none" href={resume} download>
+				<button className="btn btn-danger border d-block mx-auto rounded-pill text-uppercase px-5 py-3 my-5">
 					Download Resume
 				</button>
 			</a>

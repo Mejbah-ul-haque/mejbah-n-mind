@@ -66,17 +66,17 @@ const Login = () => {
         <div style={{ minHeight: '100vh' }} className='container'>
             <div className="row">
                 <div className="col-sm-12 col-md-9 col-lg-6 mx-auto">
-                    <h2 className='text-dark text-center mt-3'>Please Login</h2>
+                    <h2 className='text-warning text-center mt-3'>Please Login</h2>
                     <SocialLogin></SocialLogin>
                     <ToastContainer />
                     <Form onSubmit={handleSubmit}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
+                            <Form.Label className="text-secondary">Email address</Form.Label>
                             <Form.Control style={{ borderRadius: '0' }} ref={emailRef} type="email" placeholder="Enter email" required />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
+                            <Form.Label className="text-secondary">Password</Form.Label>
                             <Form.Control style={{ borderRadius: '0' }} ref={passwordRef} type="password" placeholder="Password" required />
                         </Form.Group>
                         <Button style={{ backgroundColor: 'gray', color: 'black' }} className='rounded-pill w-50 d-block mx-auto my-4 fw-bold fs-5' variant="dark" type="submit">
@@ -84,8 +84,8 @@ const Login = () => {
                         </Button>
                     </Form>
                     {errorElement}
-                    <p className='text-center '>New to Mejbah & Mind? <Link to='/register' className='text-primary pe-auto text-decoration-none fw-bold' onClick={navigateRegister}>Please Register</Link></p>
-                    <p className='text-center '>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' type='button' onClick={resetPassword}>Reset Password</button></p>
+                    <p className='text-center text-secondary'>New to Mejbah & Mind? <Link to='/register' className='text-primary pe-auto text-decoration-none fw-bold' onClick={navigateRegister}>Please Register</Link></p>
+                    <p className='text-center text-secondary'>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' type='button' onClick={resetPassword}>Reset Password</button></p>
                 </div>
             </div>
         </div>
