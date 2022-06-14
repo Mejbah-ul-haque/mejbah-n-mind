@@ -17,11 +17,11 @@ const Service = ({ service }) => {
                 <img className='w-100 service-image' src={image} alt="" />
                 
                 <h5 className='my-3 text-light'>{name}</h5>
-                <p className='text-start text-secondary'>Key Features :</p>
+                <p className='text-sm-center text-lg-start text-secondary'>Key Features :</p>
 
-                <p className=' text-light text-start'>  {features}</p>
-                <p className=' text-start text-secondary'>Technologies :</p>
-                <p className='text-light text-start'>  {technologies}</p>
+                <p className=' text-light text-sm-center text-lg-start'>  {features}</p>
+                <p className=' text-sm-center text-lg-start text-secondary'>Technologies :</p>
+                <p className='text-light text-sm-center text-lg-start'>  {technologies}</p>
 
                 <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-success rounded-pill py-2 my-3' >See Details</button>
             </div>
