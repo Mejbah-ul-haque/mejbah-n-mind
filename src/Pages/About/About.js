@@ -8,13 +8,13 @@ const About = () => {
 
             <div className="row">
 
-                <div className="col-sm-12 col-md-9 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#111b3b' }} className="card border-0">
+                <div className="col-sm-12 col-md-10 mx-auto mt-5">
+                    <div style={{ backgroundColor: '#001133' }} className="card border-0">
                         <div className="row g-0">
                         
                             <div className="col-md-6 d-flex align-items-center">
                                 <div style={{alignItems: 'center'}} className="card-body about-body">
-                                    <h6 className="btn btn-outline-info">About Myself</h6>
+                                    <h6 className="btn btn-outline-warning">About Myself</h6>
                                     <h2 className='fw-bold text-light about-heading'>Md Mejbaul Haque</h2>
                                     <h5 className="text-info">Full Stack Web Developer</h5>
                                     <hr className='p-0 m-1'></hr>
