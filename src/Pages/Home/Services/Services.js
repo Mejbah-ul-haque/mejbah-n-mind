@@ -4,7 +4,6 @@ import Service from '../Service/Service';
 const Services = () => {
 
     const [services, setServices] = useState([]);
-    console.log(services);
 
     useEffect(() => {
         fetch('https://mejba-n-mind.herokuapp.com/service')
