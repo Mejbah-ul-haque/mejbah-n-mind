@@ -1,0 +1,14 @@
+.social-one{
+  background-color: #001133;
+  color: rgb(245, 245, 90);
+  padding: 2px;
+  
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(245, 245, 90);
+}
+
+.social-one:hover{
+  color:rgb(93, 245, 90);
+  background-color: #111b3b;
+  box-shadow: 2px 2px 5px rgb(93, 245, 90);
+}

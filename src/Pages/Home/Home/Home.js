@@ -6,6 +6,7 @@ import LeadItem from '../LeadItem/LeadItem';
 import Services from '../Services/Services';
 import Special from '../Special/Special';
 import About from '../../About/About';
+import Social from '../Social/Social';
 
 
 const Home = () => {
@@ -14,7 +15,9 @@ const Home = () => {
             <LeadItem></LeadItem>
             {/* <Banner></Banner> */}
             <Goals></Goals>
+            <Social></Social>
             <Services></Services>
+            <Social></Social>
             <About></About>
             <Special></Special>
             

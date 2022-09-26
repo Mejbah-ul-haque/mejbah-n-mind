@@ -1,5 +1,8 @@
-.goal-box:hover{
+.goal-box{
   background-color: #001133;
+}
+.goal-box:hover{
+  background-color: #111b3b;
 }
 
 

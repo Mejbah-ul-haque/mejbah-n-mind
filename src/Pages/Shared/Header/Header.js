@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#111b3b'}} sticky='top'>
+            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#001133'}} sticky='top'>
                 <Container style={{backgroundColor:'#111b3b'}} className='px-3 py-2 mt-3'>
                     <Navbar.Brand style={{ fontSize: "2rem", color: 'white' }} as={Link} to="/">Mejbah<span className='text-secondary'> & </span>Mind</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav " style={{ backgroundColor: 'white'}} />
