@@ -1,3 +1,7 @@
-footer {
+footer {background-color: #010e29;
     margin-top: 100px;
+}
+.footer_button_border_color{
+    color:#001133;
+    
 }

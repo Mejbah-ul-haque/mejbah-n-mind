@@ -19,7 +19,7 @@ const Contact = () => {
   }
   return (
     <div style={{ margin: '100px 0' }} className="container d-block mx-auto">
-      <h3 className="text-success text-center mt-5"><span className="border border-success rounded px-5 py-2">Contact Form</span></h3>
+      <h3 className="text-warning text-center mt-5"><span className="border border-warning rounded px-5 py-2">Contact Form</span></h3>
       <div style={{ opacity: '.7'}} className="row mt-5">
         <div className="col-sm-12 col-lg-8 d-block mx-auto">
         <form onSubmit={sendEmail}>
@@ -32,7 +32,7 @@ const Contact = () => {
                 <input type="text" className="form-control mb-3 mt-1" placeholder="Subject" name="subject" />
               <lebel className="text-secondary fw-bold ms-2">Write Your Message</lebel>
                 <textarea className="form-control mb-5 mt-1" id="" cols="30" rows="8" placeholder="Your message" name="message" />
-                <input type="submit" className="btn btn-success rounded-pill d-block mx-auto px-5 py-2 fw-bold text-uppercase" value="Sent Message" />   
+                <input type="submit" className="btn btn-warning rounded-pill d-block mx-auto px-5 py-2 fw-bold text-uppercase" value="Sent Message" />   
         </form>
         </div>
       </div>
