@@ -12,7 +12,7 @@ const Service = ({ service }) => {
 
 	return (
 		
-		 <div className=' col-12' style={{marginTop:"150px"}}>
+		 <div className=' col-12' style={{margin:"50px 0 120px 0",}}>
             <div className="card-style text-warning text-center row p-0" style={{ backgroundColor: '#001133', color: 'seagreen' }}>
                     <h4 className=' py-2 px-4' >{project} : {name}</h4>
                     
@@ -27,14 +27,16 @@ const Service = ({ service }) => {
                 <div class="col-md-6 p-0 card-style">
 				    <img className='w-100 service-image' src={image} alt="" />
 			    </div>
-                <div class="col-md-6 card-style p-4">
-                    <h4 className='text-sm-center text-lg-start text-secondary'>Key Features :</h4>
+                <div class="col-md-6 card-style p-4 d-flex align-items-center">
+                    <div className="text-lg-start">
+                        <h4 className='text-sm-center text-lg-start text-secondary'>Key Features :</h4>
 
-                    <p className=' text-light text-sm-center text-lg-start'>  {features}</p>
-                    <h4 className=' text-sm-center text-lg-start text-secondary'>Technologies :</h4>
-                    <p className='text-light text-sm-center text-lg-start'>  {technologies}</p>
+                        <p className=' text-light text-sm-center text-lg-start'>  {features}</p>
+                        <h4 className=' text-sm-center text-lg-start text-secondary'>Technologies :</h4>
+                        <p className='text-light text-sm-center text-lg-start'>  {technologies}</p>
 
-                    <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-warning rounded-pill py-2 my-3' >See Details</button>
+                        <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-warning rounded-pill py-2 my-3' >See Details</button>
+                    </div>
                 </div>
                 
                 

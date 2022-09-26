@@ -6,7 +6,7 @@ const Social = () => {
   return (
     <div className='container my-5'>
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-3 mt-4">
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
           <div className=" shadow-lg">
             <a className='text-decoration-none' target="_blank" href="https://www.linkedin.com/in/md-mejbaul-haque-67b67b71/">
             <div className="d-flex justify-content-around align-items-center social-one">
@@ -16,7 +16,7 @@ const Social = () => {
             </a>
           </div>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-3 mt-4">
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
           <div className=" shadow-lg">
             <a className='text-decoration-none' target="_blank" href="https://twitter.com/mejba_s">
             <div className="d-flex justify-content-around align-items-center social-one">
@@ -26,7 +26,7 @@ const Social = () => {
             </a>
           </div>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-3 mt-4">
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
           <div className=" shadow-lg">
             <a className='text-decoration-none' target="_blank" href="https://www.facebook.com/profile.php?id=100000490430612">
             <div className="d-flex justify-content-around align-items-center social-one">
@@ -36,7 +36,7 @@ const Social = () => {
             </a>
           </div>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-3 mt-4">
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
           <div className=" shadow-lg">
             <a className='text-decoration-none' target="_blank" href="https://www.instagram.com/mejbah_mcj/">
             <div className="d-flex justify-content-around align-items-center social-one">
