@@ -4,16 +4,16 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div style={{ margin: '100px 0' }} className='container d-block mx-auto'>
+        <div style={{ margin: '250px 0' }} className='container'>
 
             <div className="row">
 
                 <div className="col-sm-12 col-md-10 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#001133' }} className="card border-0">
+                    <div style={{ backgroundColor: '#001133' }} className="card border-0 lead-shadow">
                         <div className="row g-0">
                         
                             <div className="col-md-6 d-flex align-items-center">
-                                <div style={{alignItems: 'center'}} className="card-body about-body">
+                                <div style={{alignItems: 'center'}} className="card-body about-body ">
                                     <h6 className="btn btn-outline-warning">About Myself</h6>
                                     <h2 className='fw-bold text-light about-heading'>Md Mejbaul Haque</h2>
                                     <h5 className="text-info">Full Stack Web Developer</h5>

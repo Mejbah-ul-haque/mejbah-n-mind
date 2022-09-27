@@ -14,10 +14,10 @@ const LeadItem = () => {
         opacity: '.7'
     }
 	return (
-		<div className="container">
+		<div className="container d-flex align-items-center justify-content-center" style={{height:"90vh"}}>
 			<div className="row my-5">
 				<div  className="col-sm-12 col-md-12 col-lg-12 mx-auto mt-2 mb-5">
-					<div style={{backgroundColor: '#001133'}} className="card border-0 lead-card p-4">
+					<div style={{backgroundColor: '#001133'}} className="card border-0 lead-card p-4 lead-shadow">
 						<div  className="row g-0">
 							<div className="col-md-6 col-lg-7 d-flex align-items-center">
 								<div id="text-body" className="card-body text-body">
@@ -33,8 +33,8 @@ const LeadItem = () => {
 									<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-warning rounded-pill px-4 py-2 mt-4">My Resume</button></a>
 								</div>
 							</div>
-							<div style={myStyle} className="col-md-6 col-lg-5 rounded-circle">
-								<img className="w-100" src={mejbah} alt="" />
+							<div style={myStyle} className="col-md-6 col-lg-5 rounded-circle p-3 roted-background">
+								<img className="w-100 roted-image" src={mejbah} alt="" />
 							</div>
 						</div>
 					</div>

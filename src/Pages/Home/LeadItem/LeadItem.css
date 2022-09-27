@@ -3,6 +3,21 @@
   border-style:none;
   background-color: #111b3b;
 }
+
+/* .lead-shadow{
+  color:rgb(93, 245, 90);
+  background-color: #111b3b;
+  box-shadow: rgba(95, 93, 93, 0.645) 0px 3px 8px;
+} */
+.lead-shadow{
+  color:rgb(93, 245, 90);
+  /* background-color: #111b3b; */
+  /* box-shadow: 10px 10px 10px rgb(35, 35, 35); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
 .hello-heading{
   color: goldenrod;
   font-size: 40px;
@@ -22,6 +37,36 @@
   color: lightgray;
   font-size:23px;
 }
+
+.roted-background {
+
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 100s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(30deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(30deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(30deg); transform:rotate(30deg); } }
+
+.roted-image {
+
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 100s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(30deg); } }
+
+.roted-image:hover {
+
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(360deg); } }
 
 
 

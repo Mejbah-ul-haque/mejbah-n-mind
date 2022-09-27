@@ -1,9 +1,20 @@
 .goal-box{
   background-color: #001133;
+  
 }
-.goal-box:hover{
-  background-color: #111b3b;
+.goal-box{
+  /* background-color: #111b3b; */
+  box-shadow: #000 0px 0px 0px 2px inset, #001133 10px -10px 0px -3px, rgba(101, 101, 102, 0.75) 10px -10px, #001133 20px -20px 0px -3px, rgba(88, 88, 88, 0.6) 20px -20px, #001133 30px -30px 0px -3px, rgba(53, 53, 53, 0.775) 30px -30px, #001133 40px -40px 0px -3px, rgba(44, 44, 44, 0.785) 40px -40px;
 }
 
 
 
+.logo-bg:hover{
+
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(360deg); } } 

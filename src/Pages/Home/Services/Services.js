@@ -12,7 +12,7 @@ const Services = () => {
     }, [])
 
     return (
-        <div id="services" className='container'>
+        <div id="services" className='container' style={{margin:"350px 0 120px 0",}}>
             <h1 style={{ color: 'seagreen', fontSize:'50px', fontWeight:'bold', marginTop:'100px' }} className='text-center'>My Projects</h1>
             <div className='row'>
                 {

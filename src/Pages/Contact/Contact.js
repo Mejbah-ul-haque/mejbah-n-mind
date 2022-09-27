@@ -18,8 +18,8 @@ const Contact = () => {
     
   }
   return (
-    <div style={{ margin: '100px 0' }} className="container d-block mx-auto">
-      <h3 className="text-warning text-center mt-5"><span className="border border-warning rounded px-5 py-2">Contact Form</span></h3>
+    <div style={{ margin: '200px 0' }} className="container d-block mx-auto lead-shadow p-5">
+      <h3 className="text-warning text-center mt-5"><span className="border border-warning rounded px-5 py-2">Contact me</span></h3>
       <div style={{ opacity: '.7'}} className="row mt-5">
         <div className="col-sm-12 col-lg-8 d-block mx-auto">
         <form onSubmit={sendEmail}>

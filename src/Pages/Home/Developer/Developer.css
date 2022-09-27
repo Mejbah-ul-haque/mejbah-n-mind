@@ -3,16 +3,25 @@
   color:brown;
   ;
 }
-.paper_text_color_yellow:hover{
+td{
   
-  background-color: rgb(149, 149, 4) !important;
+  /* background-color: rgb(149, 149, 4) !important; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
   
-  
+}
+
+td a{
+  color: rgb(67, 101, 149) !important;
+}
+
+td a:hover{
+  color:yellow !important;
 }
 .paper_text_color_text:hover{
-  color:black !important;
+ 
 }
 .tbody{
-  border:rgba(255, 255, 0, 0.46) !important;
-  box-shadow: 2px 2px 5px rgb(51, 51, 51) !important;
+  border:rgba(0, 0, 0, 0.232) !important;
+ 
+  
 }

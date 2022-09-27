@@ -5,18 +5,18 @@ import "./Developer.css";
 
 const Developer = () => {
 	return (
-		<div className=""style={{margin: "150px 0", margin:"150px 0"}}>
+		<div className=""style={{margin: "150px 0", margin:"350px 0"}}>
       <div>
         <h6 className="text-center text-secondary  fs-5 my-5"><span className="border rounded-pill border-warning bg-warning text-dark px-5 py-3">For Developer</span> </h6>
       </div>
 			<Table bordered>
-				<tbody className=" tbody text-center text-light">
+				<tbody className=" tbody text-center text-light ">
 					<tr className="">
 						<td className="paper_text_color_yellow">
 							<a
 								href="https://developer.mozilla.org/en-US/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								MDN
 							</a>
@@ -25,7 +25,7 @@ const Developer = () => {
 							<a
 								href="https://www.w3schools.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								W3school
 							</a>
@@ -34,7 +34,7 @@ const Developer = () => {
 							<a
 								href="https://www.freecodecamp.org/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								FreeCodeCamp
 							</a>
@@ -46,7 +46,7 @@ const Developer = () => {
 							<a
 								href="https://www.programming-hero.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Programming Hero
 							</a>
@@ -55,7 +55,7 @@ const Developer = () => {
 							<a
 								href="https://www.udemy.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Udemy
 							</a>
@@ -65,7 +65,7 @@ const Developer = () => {
 							<a
 								href="https://www.coursera.org/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Coursera
 							</a>
@@ -77,7 +77,7 @@ const Developer = () => {
 							<a
 								href="https://github.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Github
 							</a>
@@ -86,7 +86,7 @@ const Developer = () => {
 							<a
 								href="https://stackoverflow.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Stack Overflow
 							</a>
@@ -95,7 +95,7 @@ const Developer = () => {
 							<a
 								href="https://www.youtube.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								YouTube
 							</a>
@@ -106,7 +106,7 @@ const Developer = () => {
 				</tbody>
 			</Table>
 
-			<div className="my-5">
+			<div className="my-5 d-xl-flex justify-content-center">
         <a href="https://www.hackerrank.com/" target="_blank"><Button variant="outline-warning" className="m-3">Hackerrank</Button></a>
           <a href="https://www.geeksforgeeks.org/" target="_blank"><Button variant="outline-warning" className="m-3">GeeksforGeeks</Button></a>
           

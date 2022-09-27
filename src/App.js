@@ -17,7 +17,7 @@ import Header from './Pages/Shared/Header/Header';
 
 function App() {
   return (
-    <div style={{backgroundColor: '#041f4a'}}> 
+    <div style={{backgroundColor: '#001133'}}> 
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

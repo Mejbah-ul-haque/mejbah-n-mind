@@ -11,12 +11,12 @@ const Paper = () => {
       </div>
 			<Table bordered>
 				<tbody className=" text-center text-light">
-					<tr className="">
-						<td className="paper_text_color_css">
+					<tr className="text-secondary">
+						<td className="paper_text_color_css ">
 							<a
 								href="https://www.theguardian.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								The Guardian
 							</a>
@@ -25,7 +25,7 @@ const Paper = () => {
 							<a
 								href="https://www.bbc.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								BBC
 							</a>
@@ -34,7 +34,7 @@ const Paper = () => {
 							<a
 								href="https://www.nytimes.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none  paper_text_color_text"
 							>
 								New York Times
 							</a>
@@ -46,7 +46,7 @@ const Paper = () => {
 							<a
 								href="https://www.thedailystar.net/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none  paper_text_color_text"
 							>
 								The Daily Star
 							</a>
@@ -55,7 +55,7 @@ const Paper = () => {
 							<a
 								href="https://www.daily-sun.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Daily Sun
 							</a>
@@ -64,7 +64,7 @@ const Paper = () => {
 							<a
 								href="https://www.dhakatribune.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Dhaka Tribune
 							</a>
@@ -76,7 +76,7 @@ const Paper = () => {
 							<a
 								href="https://www.dw.com/en/top-stories/s-9097"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								Deutsche welle
 							</a>
@@ -85,7 +85,7 @@ const Paper = () => {
 							<a
 								href="https://edition.cnn.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								CNN
 							</a>
@@ -94,7 +94,7 @@ const Paper = () => {
 							<a
 								href="https://www.aljazeera.com/"
 								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
+								className="text-decoration-none paper_text_color_text"
 							>
 								aljazeera
 							</a>
@@ -105,7 +105,7 @@ const Paper = () => {
 				</tbody>
 			</Table>
 
-			<div className="my-5">
+			<div className="my-5 d-xl-flex justify-content-center">
         <a href="https://www.bd-pratidin.com/" target="_blank"><Button variant="outline-secondary text-success" className="m-3"><span className="text-danger">বাংলাদেশ</span> প্রতিদিন</Button></a>
           <a href="https://www.prothomalo.com/" target="_blank"><Button variant="outline-secondary" className="m-3">প্রথম আলো</Button></a>
           
