@@ -41,7 +41,7 @@ const Header = () => {
                             <Nav.Link className='nav-style' as={Link} to="/about">About</Nav.Link>
                             
                             <Nav.Link className='nav-style' as={Link} to="/contact">Contact Me</Nav.Link>
-                            <Nav.Link className='nav-style' as={Link} to="/skills">Skills</Nav.Link>
+                            
                             {
                                 user ?
                                     <button style={{ backgroundColor: 'black', color: 'white' }} className='btn btn-link text-decoration-none' onClick={handleSignOut}>Sign Out</button>

@@ -1,0 +1,30 @@
+.link-style{
+  color: yellow;
+  text-decoration: none;
+  border: 1px solid yellow;
+  padding: 5px 20px;
+}
+.link-style:hover{
+  color:red;
+  border: 1px solid red;
+
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+ 
+  
+}
+
+li:hover{
+  
+  
+}
+li .active{
+  background-color: yellow;
+  color:black;
+  color:red;
+  border: 1px solid red;
+ 
+}

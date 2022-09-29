@@ -6,8 +6,13 @@ import Blogs from './Pages/Blogs/Blogs';
 import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home/Home';
+import Education from './Pages/Home/Skills/Education';
+import Journalism from './Pages/Home/Skills/Journalism';
+import Others from './Pages/Home/Skills/Others';
 import Programming from './Pages/Home/Skills/Programming';
 import Skills from './Pages/Home/Skills/Skills';
+import Tools from './Pages/Home/Skills/Tools';
+import Traveling from './Pages/Home/Skills/Traveling';
 
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
@@ -24,7 +29,16 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}>
+          {/* <Route index element={<Skills></Skills>}></Route> */}
+          <Route index element={<Programming></Programming>}></Route>
+          <Route path="tools" element={<Tools></Tools>}></Route>
+          <Route path="journalism" element={<Journalism></Journalism>}></Route>
+          <Route path="traveling" element={<Traveling></Traveling>}></Route>
+          <Route path="education" element={<Education></Education>}></Route>
+          <Route path="others" element={<Others></Others>}></Route>
+          
+        </Route>
         <Route path='/service/:id' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
@@ -39,10 +53,6 @@ function App() {
         }></Route>
         {/* <Route path='/blogs' element={<Blogs></Blogs>}></Route> */}
         <Route path='*' element={<NotFound></NotFound>}></Route>
-        <Route path="skills" element={<Skills></Skills>}>
-          <Route index element={<Programming></Programming>}></Route>
-         
-        </Route>
       </Routes>
       <Footer></Footer>
     </div>
