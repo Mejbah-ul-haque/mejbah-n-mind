@@ -1,0 +1,13 @@
+li{
+  list-style: none;
+  text-decoration: none;
+  border: 1px solid yellow;
+  font-weight: 600;
+  color:yellow !important;
+}
+
+li:hover{
+  background-color: yellow;
+  color: black;
+  font-weight: 600;
+}

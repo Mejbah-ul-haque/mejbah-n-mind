@@ -1,7 +1,8 @@
 
 .lead-card{
   border-style:none;
-  background-color: #111b3b;
+  background-color: #001133 !important;
+
 }
 
 /* .lead-shadow{
@@ -84,5 +85,24 @@
   .designation-text{
     font-size:26px;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px){
+  .lead-card{
+    margin-top: -50px;
+    text-align: center;
+  }
+  .hello-heading{
+    align-items: center;
+  }
+  .lead-heading{
+    font-size: 53px;
+  }
+  .designation-text{
+    font-size:26px;
+    justify-content: center;
+  }
+  .roted-background{
+    
   }
 }

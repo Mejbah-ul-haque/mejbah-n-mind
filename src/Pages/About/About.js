@@ -4,11 +4,11 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div style={{ margin: '250px 0' }} className='container'>
+        <div style={{ margin: '250px 0' }} className='container d-block mx-auto'>
 
             <div className="row">
 
-                <div className="col-sm-12 col-md-10 mx-auto mt-5">
+                <div className="col-sm-12 col-md-12 col-xl-10 mx-auto mt-5">
                     <div style={{ backgroundColor: '#001133' }} className="card border-0 lead-shadow">
                         <div className="row g-0">
                         

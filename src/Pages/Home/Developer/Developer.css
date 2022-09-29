@@ -1,7 +1,5 @@
 .paper_text_color_css{
-  
   color:brown;
-  ;
 }
 td{
   
@@ -16,6 +14,10 @@ td a{
 
 td a:hover{
   color:yellow !important;
+
+}
+td:hover{
+  background-color: rgba(0, 0, 0, 0.209) !important;
 }
 .paper_text_color_text:hover{
  

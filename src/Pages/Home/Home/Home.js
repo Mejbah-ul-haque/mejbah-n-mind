@@ -9,6 +9,7 @@ import Services from '../Services/Services';
 import Special from '../Special/Special';
 import About from '../../About/About';
 import Social from '../Social/Social';
+import Skills from '../Skills/Skills';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <div className='container' style={{ minHeight: '100vh' }}>
             <LeadItem></LeadItem>
             {/* <Banner></Banner> */}
+            <Skills></Skills>
             <Goals></Goals>
             <Social></Social>
             <Services></Services>

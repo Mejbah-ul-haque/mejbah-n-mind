@@ -6,6 +6,9 @@ import Blogs from './Pages/Blogs/Blogs';
 import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home/Home';
+import Programming from './Pages/Home/Skills/Programming';
+import Skills from './Pages/Home/Skills/Skills';
+
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
@@ -36,6 +39,10 @@ function App() {
         }></Route>
         {/* <Route path='/blogs' element={<Blogs></Blogs>}></Route> */}
         <Route path='*' element={<NotFound></NotFound>}></Route>
+        <Route path="skills" element={<Skills></Skills>}>
+          <Route index element={<Programming></Programming>}></Route>
+         
+        </Route>
       </Routes>
       <Footer></Footer>
     </div>
