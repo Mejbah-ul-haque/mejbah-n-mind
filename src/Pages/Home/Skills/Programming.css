@@ -1,3 +1,10 @@
+.skill-bg{
+  background-color: #001133 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 250px;
+  padding: 70px 50px 10px;
+}
+
 
 
 .logo-image {

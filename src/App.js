@@ -30,8 +30,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}>
-          {/* <Route index element={<Skills></Skills>}></Route> */}
-          <Route index element={<Programming></Programming>}></Route>
+          <Route index element={<Skills></Skills>}></Route>
+          <Route path="programming" element={<Programming></Programming>}></Route>
           <Route path="tools" element={<Tools></Tools>}></Route>
           <Route path="journalism" element={<Journalism></Journalism>}></Route>
           <Route path="traveling" element={<Traveling></Traveling>}></Route>

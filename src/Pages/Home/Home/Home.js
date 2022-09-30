@@ -25,7 +25,7 @@ const Home = () => {
 			<div className="">
 				<ul className=" d-flex flex-wrap justify-content-start text-light ">
 					<li className="my-5 px-3 py-1">
-						<NavLink className='link-style' activeClassName="active" to="/home">Programming</NavLink>
+						<NavLink className='link-style' activeClassName="active" to="/home/programming">Programming</NavLink>
 					</li>
 					<li className="my-5 px-3 py-1" >
 						<NavLink className='link-style' activeClassName="active" to="/home/tools">Tools</NavLink>

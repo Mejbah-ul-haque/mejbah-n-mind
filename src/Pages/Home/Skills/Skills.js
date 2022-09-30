@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="container mx-auto my-5">
 			<div className="">
 				<h2 className="text-3xl font-bold text-secondary">My Skills</h2>
-
+        
 			</div>
 
 		</div>
