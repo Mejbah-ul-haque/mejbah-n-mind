@@ -10,7 +10,7 @@ import "./Social.css";
 
 const Social = () => {
   return (
-    <div className='container my-5'>
+    <div className='container' style={{marginTop:"200px"}}>
       <div className="row row-cols-2 row-cols-xl-6">
         <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
           <div className=" shadow-lg">

@@ -18,9 +18,9 @@ const Service = ({ service }) => {
                     
             </div>
             <div className="d-flex justify-content-center">
-                <a target='_blank' href={clientCode}><button className='btn btn-outline-secondary rounded-pill  m-3'>GitHub Client</button></a>
+                <a target='_blank' href={clientCode}><button className='btn btn-outline-secondary   m-3'>GitHub Client</button></a>
                 <a target='_blank' href={live}><button className='btn btn-outline-secondary rounded-pill m-3'>Live site</button></a>
-                <a target='_blank' href={serverCode}><button className='btn btn-outline-secondary rounded-pill m-3'>GitHub Server</button></a>
+                <a target='_blank' href={serverCode}><button className='btn btn-outline-secondary  m-3'>GitHub Server</button></a>
             </div>
             <div className='row rounded text-center lead-shadow card-background p-4'>
                 
@@ -35,7 +35,7 @@ const Service = ({ service }) => {
                         <h4 className=' text-sm-center text-lg-start text-secondary'>Technologies :</h4>
                         <p className='text-light text-sm-center text-lg-start'>  {technologies}</p>
 
-                        <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-warning rounded-pill py-2 my-3' >See Details</button>
+                        <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-warning  py-2 my-3' >See Details</button>
                     </div>
                 </div>
                 
