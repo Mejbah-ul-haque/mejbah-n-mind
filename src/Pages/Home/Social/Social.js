@@ -5,13 +5,33 @@ import "./Social.css";
 const Social = () => {
   return (
     <div className='container my-5'>
-      <div className="row">
+      <div className="row row-cols-2 row-cols-xl-6">
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://github.com/Mejbah-ul-haque">
+            <div className="d-flex justify-content-around align-items-center social-one">
+            <img className="img-fluid w-25" src={Linkedin} alt=""></img>
+            <h4 className=" py-2">GitHub</h4>
+            </div>
+            </a>
+          </div>
+        </div>
         <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
           <div className=" shadow-lg">
             <a className='text-decoration-none' target="_blank" href="https://www.linkedin.com/in/md-mejbaul-haque-67b67b71/">
             <div className="d-flex justify-content-around align-items-center social-one">
             <img className="img-fluid w-25" src={Linkedin} alt=""></img>
             <h4 className=" py-2">Linkedin</h4>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.behance.net/mejbahulhaque">
+            <div className="d-flex justify-content-around align-items-center social-one">
+            <img className="img-fluid w-25" src={Linkedin} alt=""></img>
+            <h4 className=" py-2">Behance</h4>
             </div>
             </a>
           </div>

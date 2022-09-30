@@ -13,7 +13,7 @@ const Goals = () => {
     }, [])
 
     return (
-        <div className='container mt-5'>
+        <div className='container' style={{marginTop: "300px"}}>
             <div className='row'>
                 {
                     goals.map(goal => <Goal

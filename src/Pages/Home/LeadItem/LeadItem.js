@@ -33,7 +33,7 @@ const LeadItem = () => {
 									<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-warning rounded-pill px-4 py-2 mt-4">My Resume</button></a>
 								</div>
 							</div>
-							<div style={myStyle} className="col-md-10 col-lg-5 rounded-circle p-3 roted-background mx-auto">
+							<div style={myStyle} className="col-md-10 col-lg-5 rounded-circle p-5 roted-background mx-auto">
 								<img className="w-100 roted-image" src={mejbah} alt="" />
 							</div>
 						</div>

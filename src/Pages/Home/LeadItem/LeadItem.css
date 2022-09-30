@@ -1,7 +1,7 @@
 
 .lead-card{
   border-style:none;
-  background-color: #001133 !important;
+  background-color: #021947 !important;
 
 }
 
@@ -39,7 +39,7 @@
   font-size:23px;
 }
 
-.roted-background {
+/* .roted-background {
 
   -webkit-animation:spin 10s linear infinite;
   -moz-animation:spin 4s linear infinite;
@@ -47,9 +47,9 @@
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(30deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(30deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(30deg); transform:rotate(30deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(30deg); transform:rotate(30deg); } } */
 
-.roted-image {
+/* .roted-image {
 
   -webkit-animation:spin 10s linear infinite;
   -moz-animation:spin 4s linear infinite;
@@ -57,7 +57,7 @@
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(30deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(30deg); } } */
 
 .roted-image:hover {
 
