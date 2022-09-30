@@ -15,7 +15,7 @@ const Programming = () => {
 	return (
 		<div>
 			<div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 g-4">
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={react} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -23,7 +23,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Javascript} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -31,7 +31,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Node} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -39,7 +39,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Express} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -47,7 +47,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Mongodb} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -55,7 +55,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={htmlLogo} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -63,7 +63,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={cssLogo} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -71,7 +71,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Tailwind} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -79,7 +79,7 @@ const Programming = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Bootstrap} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">

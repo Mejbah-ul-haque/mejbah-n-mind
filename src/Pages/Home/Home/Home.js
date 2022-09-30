@@ -19,7 +19,7 @@ const Home = () => {
 			{/* <Banner></Banner> */}
 
 			<div className="" >
-				<div className="lead-shadow ps-4 py-2 ">
+				<div className="lead-shadow ps-4 py-2" style={{backgroundColor: "#021947"}}>
 					<span className="">
 						<h2 className="text-3xl font-bold text-secondary ">My Skills</h2>
 					</span>

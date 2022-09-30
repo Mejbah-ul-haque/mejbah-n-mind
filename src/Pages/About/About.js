@@ -9,7 +9,7 @@ const About = () => {
             <div className="row">
 
                 <div className="col-sm-12 col-md-12 col-xl-10 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#001133' }} className="card border-0 lead-shadow">
+                    <div style={{ backgroundColor: '#021947' }} className="card border-0 lead-shadow">
                         <div className="row g-0">
                         
                             <div className="col-md-6 d-flex align-items-center">

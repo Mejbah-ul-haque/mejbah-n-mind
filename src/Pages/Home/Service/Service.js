@@ -13,16 +13,16 @@ const Service = ({ service }) => {
 	return (
 		
 		 <div className=' col-12' style={{margin:"150px 0 220px 0",}}>
-            <div className="card-style text-warning text-center lead-shadow row p-0" style={{ backgroundColor: '#001133', color: 'seagreen' }}>
+            <div className="card-style text-warning text-center lead-shadow row p-0" style={{ backgroundColor: '#021947', color: 'seagreen' }}>
                     <h4 className=' py-2 px-4' ><span className="text-secondary">{project} :</span> {name}</h4>
                     
             </div>
             <div className="d-flex justify-content-center">
-                <a target='_blank' href={clientCode}><button className='btn btn-outline-secondary rounded-pill m-3'>GitHub Client</button></a>
+                <a target='_blank' href={clientCode}><button className='btn btn-outline-secondary rounded-pill  m-3'>GitHub Client</button></a>
                 <a target='_blank' href={live}><button className='btn btn-outline-secondary rounded-pill m-3'>Live site</button></a>
                 <a target='_blank' href={serverCode}><button className='btn btn-outline-secondary rounded-pill m-3'>GitHub Server</button></a>
             </div>
-            <div className='row rounded text-center lead-shadow '>
+            <div className='row rounded text-center lead-shadow card-background p-4'>
                 
                 <div class="col-md-6 p-0 card-style">
 				    <img className='w-100 service-image' src={image} alt="" />

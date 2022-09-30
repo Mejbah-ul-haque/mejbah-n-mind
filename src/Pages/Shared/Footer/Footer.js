@@ -10,7 +10,7 @@ const year = today.getFullYear();
 const Footer = () => {
     return (
         <footer>
-            <div style={{ height: '50px', backgroundColor: 'lightgray' }}></div>
+            <div className='lead-shadow' style={{ height: '50px', backgroundColor: 'lightgray' }}></div>
             <div className='container-fluid py-5 text-light'>
                 <div className="container">
                     <div className="row">

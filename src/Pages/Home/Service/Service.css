@@ -4,10 +4,13 @@
 
 
 .service-btn{
-  background-color: #001133;
+  background-color: #021947;
   color: white
 
 }
 .card-style{
-  background-color: #001133;
+  background-color: #021947;
+}
+.card-background{
+  background-color: #021947;
 }
