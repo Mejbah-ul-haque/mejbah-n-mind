@@ -17,12 +17,11 @@ const Home = () => {
 		<div className="container" style={{ minHeight: "100vh" }}>
 			<LeadItem></LeadItem>
 			{/* <Banner></Banner> */}
-
+			
 			<div className="" >
 				<div className="lead-shadow ps-4 py-2" style={{backgroundColor: "#021947"}}>
-					<span className="">
 						<h2 className="text-3xl font-bold text-secondary ">My Skills</h2>
-					</span>
+					
 				</div>
 				<div className=" my-4 mx-0">
 					<ul className=" d-flex flex-wrap justify-content-start text-light mx-0 px-0">
@@ -30,7 +29,7 @@ const Home = () => {
 							<NavLink
 								className="link-style"
 								activeClassName="active"
-								to="/home/programming"
+								to="/home"
 							>
 								Programming
 							</NavLink>
@@ -82,8 +81,9 @@ const Home = () => {
 						</li>
 					</ul>
 				</div>
+				<Outlet></Outlet>
 			</div>
-			<Outlet></Outlet>
+			
 
 			<Social></Social>
 		
