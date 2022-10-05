@@ -16,8 +16,8 @@ const Dashboard = () => {
 					
           <div className="d-flex">
             <ul className="mt-5">
-              <li><Link to="/dashboard" className="dashboard_button"> My Dashboard</Link></li>
-              <li className="mt-3"><Link to="/dashboard/addProject" className="dashboard_button"> Add Project</Link></li>
+              {/* <li><Link to="/dashboard" className="dashboard_button"> My Dashboard</Link></li> */}
+              <li className="mt-3"><Link to="/dashboard" className="dashboard_button"> Add Project</Link></li>
               <li className="mt-3"><Link to="/dashboard/addReport" className="dashboard_button">Add Report</Link></li>
               <li className="mt-3"><Link to="/dashboard" className="dashboard_button"> My Dashboard</Link></li>
             </ul>
