@@ -12,7 +12,7 @@
         "bodyPart3": "Full responsive with navigation. Used Route, Private route, Dynamic route. use environment variable for password secret. Use gitignore file.",
         "bodyPart4": "What a fantastic (404) Not found page with a fenny picture. Show error message.",
         "technologies": "React.js, Express.js, CSS3, Tailwind CSS,DaisyUI, Mongodb, Heroku, Firebase.",
-        "tools": "VS Code, React hook form, React Query, Spripe, Font Awesome, JWT Token etc.",
+        "tools": "VS Code, React hook form, React Query, Stripe, Font Awesome, JWT Token etc.",
         "image": "https://i.ibb.co/HVFjwhL/tools1.jpg",
         "image2": "https://i.ibb.co/dGjDr3z/tools2.jpg",
         "image3": "https://i.ibb.co/18wwxYT/tools3.jpg",
@@ -32,7 +32,7 @@
         "bodyPart4": "What a fantastic (404) Not found page with a fenny picture. Show error message.",
         "technologies": "React.js, Express.js, CSS3, Bootstrap, React-Bootstrap, Mongodb, Heroku, Firebase.",
         "tools": "VS Code, React hook form, Font Awesome, JWT Token, React Toastify etc.",
-        "image": "https://i.ibb.co/930Vjy7/atafal1.jpg",
+        "image": "https://i.ibb.co/JvL1r5V/tools.jpg",
         "image2": "https://i.ibb.co/ySTmT01/atafal2.jpg",
         "image3": "https://i.ibb.co/zJG8zb2/atafal3.jpg",
         "image4": "https://i.ibb.co/GMwvKmR/atafal4.jpg"

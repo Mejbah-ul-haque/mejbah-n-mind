@@ -23,7 +23,7 @@ const Header = () => {
                         <Nav className="me-auto ms-5">
                             <Nav.Link className='nav-style' as={Link} to="/">Home</Nav.Link>
                             <Nav.Link className='nav-style' href="home#services">My Projects</Nav.Link>
-                            <Nav.Link className='nav-style' as={Link} to="/blogs">Blogs</Nav.Link>
+                            {/* <Nav.Link className='nav-style' as={Link} to="/blogs">Blogs</Nav.Link> */}
                             <Nav.Link className='nav-style' as={Link} to="/resume">Resume</Nav.Link>
                             
 
@@ -38,15 +38,18 @@ const Header = () => {
                             </NavDropdown> */}
                         </Nav>
                         <Nav className="ms-5">
-                            <Nav.Link className='nav-style' as={Link} to="/about">About</Nav.Link>
+                            {/* <Nav.Link className='nav-style' as={Link} to="/about">About</Nav.Link> */}
                             
-                            <Nav.Link className='nav-style' as={Link} to="/contact">Contact Me</Nav.Link>
+                            {/* <Nav.Link className='nav-style' as={Link} to="/contact">Contact Me</Nav.Link> */}
+                            <Nav.Link className='nav-style text-warning fw-bold' as={Link} to="/journalism/report">Journalism</Nav.Link>
+                            {user && <Nav.Link className='nav-style text-warning fw-bold' as={Link} to="/dashboard">Dashboard</Nav.Link>}
+                            
                             
                             {
                                 user ?
-                                    <button style={{ backgroundColor: 'black', color: 'white' }} className='btn btn-link text-decoration-none' onClick={handleSignOut}>Sign Out</button>
+                                    <button style={{ color: 'black' }} className='btn btn-link text-decoration-none' onClick={handleSignOut}>Sign Out</button>
                                     :
-                                    <Nav.Link className='nav-style' as={Link} to="/login">
+                                    <Nav.Link style={{ color: 'black' }} as={Link} to="/login">
                                         Login
                                     </Nav.Link>}
                         </Nav>

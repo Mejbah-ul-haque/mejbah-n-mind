@@ -1,0 +1,14 @@
+.dashboard_button{
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  margin: 200px 0;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-weight: 600;
+
+}
+.dashboard_button:hover{
+ background-color: aliceblue;
+ color: black;
+}

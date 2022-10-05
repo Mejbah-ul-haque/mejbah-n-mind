@@ -1,10 +1,14 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Report from './Images/Report/Report';
 import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs';
 import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
 import Contact from './Pages/Contact/Contact';
+import AddProject from './Pages/Dahsboard/AddProject';
+import AddReport from './Pages/Dahsboard/AddReport';
+import Dashboard from './Pages/Dahsboard/Dashboard';
 import Home from './Pages/Home/Home/Home';
 import Education from './Pages/Home/Skills/Education';
 import Journalism from './Pages/Home/Skills/Journalism';
@@ -48,11 +52,18 @@ function App() {
         <Route path='/resume' element={<Resume></Resume>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        
+        <Route path='journalism/report' element={<Report></Report>}></Route>
         <Route path='/checkout' element={
           <RequireAuth>
             <CheckOut></CheckOut>
           </RequireAuth>
         }></Route>
+        
+        <Route path='dashboard' element={<Dashboard></Dashboard>}>
+          <Route path='addProject' element={<AddProject></AddProject>}></Route>
+          <Route path='addReport' element={<AddReport></AddReport>}></Route>
+        </Route>
         {/* <Route path='/blogs' element={<Blogs></Blogs>}></Route> */}
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>

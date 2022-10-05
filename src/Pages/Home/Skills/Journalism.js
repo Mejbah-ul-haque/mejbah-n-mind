@@ -6,6 +6,8 @@ import Security1 from "../../../../src/Images/Journalism/security1.png";
 import Security2 from "../../../../src/Images/Journalism/security2.png";
 import Pratidin from "../../../../src/Images/Journalism/pratidin.png";
 import NewsLetter from "../../../../src/Images/Journalism/news_letter.png";
+import { Link } from "react-router-dom";
+import "./Journalism.css";
 
 
 const Journalism = () => {
@@ -13,7 +15,8 @@ const Journalism = () => {
     <div>
 			<div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 g-4">
 				<div class="col-xs-6 col-sm-6 col-md-3 col-xl-2 col-xxl-2">
-					<div class="card text-white skill-bg ">
+					<Link to="/journalism/report">
+					<div class="card text-white skill-bg skill-hover">
 						<img src={Pratidin} class="card-img logo-imag pt-5 pb-2" alt="..." />
 						<div class="card-img-overlay text-center lead-style pt-2">
 							<h5 class="card-title fs-6 text-info">Senior Reporter</h5>
@@ -21,6 +24,7 @@ const Journalism = () => {
               <p className="border-top border-2 border-dark text-secondary py-0 mt-0"><small>Daily Newspaper</small></p>
 						</div>
 					</div>
+					</Link>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-3 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
