@@ -10,10 +10,10 @@ import "./Social.css";
 
 const Social = () => {
   return (
-    <div className='container' style={{marginTop:"200px"}}>
+    <div className='container' style={{marginTop:"0px"}}>
       <div className="row row-cols-2 row-cols-xl-6">
-        <div className="col-xs-6 col-sm-6 col-md-3 mt-4">
-          <div className=" shadow-lg">
+        <div className="col-xs-6 col-sm-6 col-md-3 mt-4 mx-0 px-0">
+          <div className=" shadow-lg ms-0 ps-0">
             <a className='text-decoration-none' target="_blank" href="https://github.com/Mejbah-ul-haque">
             <div className="d-flex justify-content-around align-items-center social-one">
             <img className="img-fluid w-25" src={GitHub} alt=""></img>

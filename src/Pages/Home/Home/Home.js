@@ -11,16 +11,18 @@ import About from "../../About/About";
 import Social from "../Social/Social";
 import { NavLink, Outlet } from "react-router-dom";
 import "./Home.css";
+import TotalSkills from "../Skills/TotalSkills";
 
 const Home = () => {
 	return (
 		<div className="container" style={{ minHeight: "100vh" }}>
 			<LeadItem></LeadItem>
 			{/* <Banner></Banner> */}
+			<TotalSkills></TotalSkills>
 			
 			<div className="" >
 				<div className="lead-shadow ps-4 py-2" style={{backgroundColor: "#021947"}}>
-						<h2 className="text-3xl font-bold text-secondary ">My Skills</h2>
+						<h2 className="text-3xl font-bold text-secondary ">Others Skills</h2>
 					
 				</div>
 				<div className=" my-4 mx-0">
