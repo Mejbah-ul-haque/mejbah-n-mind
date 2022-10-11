@@ -13,7 +13,7 @@ const Education = () => {
 					<div class="card text-white skill-bg ">
 						<img src={RU} class="card-img logo-imag pb-3 pt-5" alt="..." />
 						<div class="card-img-overlay text-center lead-style pt-2">
-							<h5 class="card-title fw-bold text-info">MSS</h5>
+							<h5 class="card-title fw-bold text-info">Master's</h5>
               <p className="border-top border-2 border-dark text-secondary pt-0 pb-1 my-0"><small>Rajshahi University</small></p>
               <p className="border-top border-2 border-dark pt-0 mt-0"><small>Mass Comm. & Journalism</small></p>
 						</div>

@@ -12,7 +12,7 @@ const Service = ({ service }) => {
 
 	return (
 		
-		 <div className=' col-12' style={{margin:"150px 0 220px 0",}}>
+		 <div className=' col-12' style={{margin:"100px 0 220px 0",}}>
             <div className="card-style text-warning text-center lead-shadow row p-0" style={{ backgroundColor: '#021947', color: 'seagreen' }}>
                     <h4 className=' py-2 px-4' ><span className="text-secondary">{project} :</span> {name}</h4>
                     
@@ -24,10 +24,10 @@ const Service = ({ service }) => {
             </div>
             <div className='row rounded text-center lead-shadow card-background p-4'>
                 
-                <div class="col-md-6 p-0 card-style">
+                <div class="col-md-6 p-0 card-style ">
 				    <img className='w-100 service-image' src={image} alt="" />
 			    </div>
-                <div class="col-md-6 card-style p-4 d-flex align-items-center">
+                <div class="col-md-6 card-style p-4 d-flex align-items-center  Others_bg">
                     <div className="text-lg-start">
                         <h4 className='text-sm-center text-lg-start text-secondary'>Key Features :</h4>
 

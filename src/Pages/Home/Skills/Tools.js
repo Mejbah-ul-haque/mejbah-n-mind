@@ -8,6 +8,7 @@ import Figma from "../../../../src/Images/Tools/figma.png";
 import VScode from "../../../../src/Images/Tools/vscode.png";
 import Stripe from "../../../../src/Images/Tools/stripe.png";
 import JWT from "../../../../src/Images/Tools/jwt.png";
+import Canva from "../../../../src/Images/Tools/canva.png";
 
 const Tools = () => {
   return (
@@ -85,7 +86,14 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				
+				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+					<div class="card text-white skill-bg">
+						<img src={Canva} class="card-img logo-imag pb-3" alt="..." />
+						<div class="card-img-overlay text-center lead-style">
+							<h5 class="card-title fw-bold border-bottom border-2 border-dark text-info pb-3" style={{color:"#7e12f9"}}>Canva</h5>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
   );
