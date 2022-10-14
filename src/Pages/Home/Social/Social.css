@@ -1,14 +1,17 @@
 .social-one{
-  background-color: #021947;
+  background-color: #02174168;
   color: rgb(136, 136, 136);
   padding: 2px;
   
   /* border-radius: 10px; */
-  box-shadow: 2px 2px 5px rgb(245, 245, 90);
+  box-shadow: 5px 5px 10px rgb(3, 1, 44);
+  border: 1px solid rgba(47, 47, 47, 0.534);
 }
 
 .social-one:hover{
-  color:rgb(93, 245, 90);
-  background-color: #111b3b;
-  box-shadow: 2px 2px 5px rgb(122, 174, 246);
+  color:rgb(186, 185, 185);
+  background-color: black;
+  border: 1px solid rgb(93, 92, 92);
+  box-shadow: 5px 5px 10px rgb(7, 7, 7);
+  
 }

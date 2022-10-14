@@ -13,8 +13,8 @@ import Canva from "../../../../src/Images/Tools/canva.png";
 const Tools = () => {
   return (
     <div>
-			<div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 g-4">
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+			<div class="row row-cols-2 row-cols-md-4 row-cols-xl-6 g-4">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Git} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -22,7 +22,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={GitHub} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -30,7 +30,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Firebase} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -38,7 +38,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Heroku} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -46,7 +46,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Netlify} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -54,7 +54,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Figma} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -62,7 +62,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={VScode} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -70,7 +70,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Stripe} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -78,7 +78,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={JWT} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
@@ -86,7 +86,7 @@ const Tools = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-xl-2 col-xxl-2">
+				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Canva} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
