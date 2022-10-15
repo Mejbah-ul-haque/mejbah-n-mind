@@ -4,15 +4,16 @@
 
 
 .service-btn{
-  background-color: #021947;
+  
   color: white
 
 }
 .card-style{
-  background-color: #021947;
+ 
 }
 .card-background{
-  background-color: #021947;
+  background-color: #022365;
+  border: 1px solid rgba(129, 129, 129, 0.534);
 }
 /* .Others_bg{
   z-index: 9999;

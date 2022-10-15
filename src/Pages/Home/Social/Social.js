@@ -127,6 +127,16 @@ const Social = () => {
             </a>
           </div>
         </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://github.com/Mejbah-ul-haque">
+            <div className="d-flex justify-content-around align-items-center social-one">
+            <img className="img-fluid w-25 p-1" src={GitHub} alt=""></img>
+            <h6 className=" py-2 pe-3">GitHub</h6>
+            </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
