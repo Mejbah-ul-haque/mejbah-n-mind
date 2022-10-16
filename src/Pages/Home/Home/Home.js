@@ -21,7 +21,7 @@ const Home = () => {
 			<TotalSkills></TotalSkills>
 			
 			<div className="" >
-				<div className="lead-shadow ps-4 py-2" style={{backgroundColor: "#021947"}}>
+				<div className="lead-shadow ps-4 py-2" style={{backgroundColor: "#021a4e", border:"1px solid rgba(129, 129, 129, 0.534)"}}>
 						<h2 className="text-3xl font-bold text-secondary ">Others Skills</h2>
 					
 				</div>

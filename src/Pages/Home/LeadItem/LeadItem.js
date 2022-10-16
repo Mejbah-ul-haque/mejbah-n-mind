@@ -18,7 +18,7 @@ const LeadItem = () => {
 		<div className="container d-flex justify-content-center align-items-center min-vh-100">
 			<div className="row my-5">
 				<div  className="col-sm-12 col-md-12 col-lg-12 mx-auto mt-2 mb-5">
-					<div className="card border-0 lead-card p-4 lead-shadow">
+					<div className="card lead-card p-4 lead-shadow">
 						<div  className="row g-0">
 							<div className="col-md-12 col-lg-7 d-flex align-items-center">
 								<div id="text-body" className="card-body text-body">

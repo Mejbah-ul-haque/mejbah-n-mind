@@ -9,11 +9,11 @@ const About = () => {
             <div className="row">
 
                 <div className="col-sm-12 col-md-12 col-xl-10 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#021947' }} className="card border-0 lead-shadow">
+                    <div style={{ backgroundColor: '#021a4e', border: "1px solid rgba(129, 129, 129, 0.534)" }} className="card lead-shadow">
                         <div className="row g-0">
                         
-                            <div className="col-md-6 d-flex align-items-center">
-                                <div style={{alignItems: 'center'}} className="card-body about-body ">
+                            <div className="col-md-6 d-flex align-items-center p-3">
+                                <div style={{alignItems: 'center'}} className="card-body about-body">
                                     <h6 className="btn btn-outline-warning">About Myself</h6>
                                     <h2 className='fw-bold text-light about-heading'>Md Mejbaul Haque</h2>
                                     <h5 className="text-info">Full Stack Web Developer</h5>

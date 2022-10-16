@@ -12,8 +12,9 @@
  
 }
 .card-background{
-  background-color: #022365;
+  background-color: #021a4e;
   border: 1px solid rgba(129, 129, 129, 0.534);
+  border-radius: 0;
 }
 /* .Others_bg{
   z-index: 9999;
