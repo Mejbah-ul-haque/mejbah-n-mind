@@ -12,7 +12,7 @@ const Service = ({ service }) => {
 
 	return (
 		
-		 <div className=' col-12' style={{margin:"50px 0 100px 0",}}>
+		 <div className=' col-12' style={{margin:"50px 0 100px 0"}}>
             <div className="card-style text-warning text-center lead-shadow row p-0" style={{ backgroundColor: 'black' }}>
                     <h4 className=' py-2 px-4 text-secondary' > {name}</h4>
                     

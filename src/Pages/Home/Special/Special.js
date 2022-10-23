@@ -5,9 +5,9 @@ const Special = () => {
     return (
         <div className='container'>
             <div className="row">
-                <div className="col-sm-12 col-lg-12 mx-auto mt-5">
-                <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Not only my profession</h6>
-            <h2 className='text-light lead-heading text-center mb-5'>It's Passion !</h2>
+                <div className="col-sm-12 col-lg-12 mx-auto" style={{borderBottom: '2px solid black', paddingBottom: '100px'}}>
+                    <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Not only my profession</h6>
+                    <h2 className='text-light lead-heading text-center mb-5'>It's Passion !</h2>
                     <div style={{opacity:".7", backgroundColor: '#212428', border: "1px solid rgba(129, 129, 129, 0.534)"}} className="card lead-shadow mb-3">
                         <div className="row g-0">
                         <div className="col-lg-6">

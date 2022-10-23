@@ -4,7 +4,7 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div style={{ margin: '250px 0' }} className='container d-block mx-auto'>
+        <div style={{ margin: '200px 0', borderBottom: '2px solid black', paddingBottom: '100px' }} className='container d-block mx-auto'>
 
             <div className="row">
             <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>This is myself !!</h6>

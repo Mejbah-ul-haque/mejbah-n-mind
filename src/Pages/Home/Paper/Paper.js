@@ -5,7 +5,7 @@ import "./Paper.css";
 
 const Paper = () => {
 	return (
-		<div className="mt-5">
+		<div className="mt-5" style={{borderBottom: '2px solid black', paddingBottom: '100px'}}>
       <div>
 			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Click the link & update !</h6>
             <h2 className='text-light lead-heading text-center mb-5'>Today's Media</h2>

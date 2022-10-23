@@ -15,7 +15,7 @@ import TotalSkills from "../Skills/TotalSkills";
 
 const Home = () => {
 	return (
-		<div className="container" style={{ minHeight: "100vh" }}>
+		<div className="container" style={{ minHeight: "" }}>
 			<LeadItem></LeadItem>
 			{/* <Banner></Banner> */}
 			<Goals></Goals>
@@ -23,7 +23,7 @@ const Home = () => {
 			<TotalSkills></TotalSkills>
 			
 			
-			<div className="" >
+			<div className=""  style={{borderBottom:'2px solid black', paddingBottom:'100px'}}>
 				<div className=" ps-4 py-2">
 				<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>2+ Years of experience</h6>
             <h2 className='text-light lead-heading text-center mb-5'>My Resume</h2>

@@ -23,7 +23,7 @@ const Contact = () => {
     
   }
   return (
-    <div  className="container d-block mx-auto p-5">
+    <div  className="container d-block mx-auto p-5" style={{margin: '100px 0'}}>
       <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Please, Sent Message !!</h6>
             <h2 className='text-light lead-heading text-center mb-5'>Contact With Me</h2>
       <div  className="row d-flex">

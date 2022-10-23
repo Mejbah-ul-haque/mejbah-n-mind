@@ -22,13 +22,13 @@ import Canva from "../../../../src/Images/Tools/canva.png";
 
 const TotalSkills = () => {
   return (
-    <div style={{marginBottom: "200px"}} className="min-vh-100">
+    <div style={{marginBottom: "100px", borderBottom:'2px solid black'}} className="">
       <div className="container mx-auto">
 			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>What is my Skills</h6>
             <h2 className='text-light lead-heading text-center mb-5'>Programming Skills</h2>
         
 			</div>
-			<div class="row row-cols-2 row-cols-md-4 row-cols-xl-6 g-4 my-5">
+			<div class="row row-cols-2 row-cols-md-4 row-cols-xl-6 g-4" style={{ marginBottom: "100px", marginTop: '100px'}}>
 				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={react} class="card-img logo-image pb-3" alt="..." />

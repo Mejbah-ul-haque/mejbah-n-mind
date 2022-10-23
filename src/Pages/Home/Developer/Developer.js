@@ -5,7 +5,7 @@ import "./Developer.css";
 
 const Developer = () => {
 	return (
-		<div className=""style={{margin: "150px 0", margin:"350px 0"}}>
+		<div className=""style={{margin:"150px 0", borderBottom: '2px solid black', paddingBottom: '100px'}}>
       <div>
 			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>most Useful website links</h6>
             <h2 className='text-light lead-heading text-center mb-5'>For Developer</h2>
