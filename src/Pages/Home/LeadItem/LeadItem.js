@@ -42,10 +42,10 @@ const LeadItem = () => {
 										<Link to="/contact"><button className="btn btn-outline-primary rounded-pill px-5 py-2 mt-4 me-3 ">HIRE ME</button></Link>
 										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-primary rounded-pill px-4 py-2 mt-4">MY RESUME</button></a>	
 									</div> */}
-									<div className="d-flex justify-content-between" style={{margin:'60px 0 50px 0'}}>
+									<div className="d-lg-flex justify-content-between" style={{margin:'60px 0 50px 0'}}>
 										<div>
-											<p className="text-light text-start">Find with me</p>
-											<div className="d-flex">
+											<p className="text-light text-lg-start text-center">Find with me</p>
+											<div className="d-flex justify-content-center">
 											<div className="social-first lead-shadow">
 											<a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://github.com/Mejbah-ul-haque">											
 											<img className="img-fluid p-1" src={GitHub} alt="" style={{width:'40px'}} ></img>											
@@ -64,8 +64,8 @@ const LeadItem = () => {
 											</div>
 										</div>
 										<div>
-											<p className="text-light text-start">Follow me</p>
-											<div className="d-flex">
+											<p className="text-light text-lg-start text-center mt-lg-0 mt-4">Follow me</p>
+											<div className="d-flex justify-content-center">
 											<div className="social-first lead-shadow">
 											<a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://www.facebook.com/mejbah2014">											
 											<img className="img-fluid p-1" src={Facebook} alt="" style={{width:'40px'}} ></img>											

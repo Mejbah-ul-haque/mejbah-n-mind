@@ -68,12 +68,12 @@ const Contact = () => {
           <div className='lead-shadow px-4 py-5'>
           <form onSubmit={sendEmail}>
                   
-                  <div className='d-flex justify-content-between'>
+                  <div className='d-lg-flex justify-content-between'>
                     <div className='w-100 me-4'>
                       <lebel className="text-light  ms-2">Your Name</lebel>
                       <input type="text" className="form-control input-shadow p-3 mb-3 mt-1 me-3" placeholder="Name" name="name" />
                     </div>
-                    <div className='w-75'>
+                    <div className='w-100 w-lg-75'>
                       <lebel className="text-light  ms-2">Your Phone</lebel>
                       <input type="text" className="form-control input-shadow p-3 mb-3 mt-1" placeholder="phone" name="phone" />
                     </div>              
