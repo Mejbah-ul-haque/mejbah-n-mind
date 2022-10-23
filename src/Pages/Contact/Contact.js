@@ -32,11 +32,11 @@ const Contact = () => {
           <div class="card border-dark" style={{background:'#212428'}}>
           <img src={Mejbah} class="card-img-top roted-image" alt="..." />
           <div class="card-body">
-            <h5 class="card-title text-danger fs-1 fw-bold">HIRE ME !</h5>
+            <h5 class="card-title text-danger fs-1 fw-bold">H<span className='text-warning'>!</span>RE <span className='text-warning'>Me</span></h5>
             <h5 class="text-light fs-5 fw-bold">MD MEJBAUL HAQUE</h5>
-            <h5 class="text-secondary fs-5">Web Engineer</h5>
-            <h5 class="text-secondary fs-6 mt-43">WhatsApp: <span className='text-light'>+8801917544593</span> </h5>
-            <h5 class="text-secondary fs-6">Email: <span className='text-light'>mejba.s@gmail.com</span> </h5>
+            <h5 class="text-info fs-5">Web Engineer</h5>
+            <h5 class="text-secondary fw-lighter fs-6 mt-43">WhatsApp: <span className='text-light '>+8801917544593</span> </h5>
+            <h5 class="text-secondary fw-lighter fs-6">Email: <span className='text-primary fw-bold '>mejba.s@gmail.com</span> </h5>
             {/* <h5 class="text-secondary fs-6">MERN Stack Developer</h5>
             <h5 class="text-secondary fs-5">Web Designer</h5> */}
             <p class="card-text text-light my-4">I am available for work. Connect with me via social media and call in to my account</p>

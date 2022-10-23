@@ -4,6 +4,8 @@
 .about-text-body{
 
 }
+
+
 @media only screen and (max-width: 576px){
   .about-body{
     text-align: center;
@@ -19,6 +21,13 @@
   
 }
 
+
+@media only screen and (max-width: 992px) {
+  .plus-style {
+    margin-top: 150px ;
+   padding-right: 0;
+  }
+}
 @media only screen and (max-width: 768px) {
   .plus-style {
     margin:  0;

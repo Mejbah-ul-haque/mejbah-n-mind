@@ -13,8 +13,8 @@ const Service = ({ service }) => {
 	return (
 		
 		 <div className=' col-12' style={{margin:"50px 0 100px 0"}}>
-            <div className="card-style text-warning text-center lead-shadow row p-0" style={{ backgroundColor: 'black' }}>
-                    <h4 className=' py-2 px-4 text-secondary' > {name}</h4>
+            <div className="card-style text-warning text-center sent-button row p-0" style={{ backgroundColor: 'black' }}>
+                    <h4 className=' py-2 px-4' style={{color:'#ff0066'}}> {name}</h4>
                     
             </div>
             <div className="d-flex justify-content-center my-3">
@@ -29,13 +29,15 @@ const Service = ({ service }) => {
 			    </div>
                 <div class="col-lg-6 card-style p-4 d-flex align-items-center  Others_bg">
                     <div className="text-lg-start">
-                        <h4 className='text-sm-center text-lg-start text-secondary'>Key Features :</h4>
+                        <h4 className='text-sm-center text-lg-start text-secondary fw-light'>Key Features :</h4>
 
-                        <p className=' text-light text-sm-center text-lg-start'>  {features}</p>
-                        <h4 className=' text-sm-center text-lg-start text-secondary'>Technologies :</h4>
+                        <p className=' text-light text-sm-center text-lg-start '>  {features}</p>
+                        <h4 className=' text-sm-center text-lg-start text-secondary fw-light'>Technologies :</h4>
                         <p className='text-light text-sm-center text-lg-start'>  {technologies}</p>
 
-                        <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-warning  py-2 my-3' >See Details</button>
+                        <div className=" w-100 mt-5" style={{background:'#505862'}}>
+                        <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-secondary border-dark rounded-0 fw-bold text-uppercase py-2' style={{background:'black'}} >Explore More...</button> 
+                        </div>
                     </div>
                 </div>
                 

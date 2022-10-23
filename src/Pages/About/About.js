@@ -10,7 +10,7 @@ const About = () => {
             <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>This is myself !!</h6>
             <h2 className='text-light lead-heading text-center mb-5'>About Me</h2>
                 <div className="col-sm-12 col-md-12 col-xl-12 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#212425', border: "1px solid rgba(129, 129, 129, 0.534)", marginTop:'50px' }} className="card lead-shadow">
+                    <div style={{ backgroundColor: '#1f2125', border: "1px solid rgba(129, 129, 129, 0.534)", marginTop:'50px' }} className="card lead-shadow">
                         <div className="row g-0">
                         
                             <div className="col-md-6 d-flex align-items-center p-3">

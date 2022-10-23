@@ -23,8 +23,8 @@ const LeadItem = () => {
 	return (
 		<div className="container d-flex justify-content-center align-items-center">
 			<div className="row">
-				<div  className="col-sm-12 col-md-12 col-lg-12 mx-auto p-0 mt-2 my-5" style={{borderBottom:'2px solid black', marginBottom:'50px'}}>
-					<div className="card lead-card lead-shado" >
+				<div  className="col-sm-12 col-md-12 col-lg-12 mx-auto p-0" style={{ marginBottom:'50px'}}>
+					<div className="card lead-card" >
 						<div  className="row g-0">
 							<div className="col-md-12 col-lg-7 d-flex align-items-end">
 								<div id="text-body" className="card-body text-body pb-0 ps-0 pe-4">
@@ -95,7 +95,17 @@ const LeadItem = () => {
 						</div>
 					</div>
 				</div>
+				<div className="col-12 sent-button" >
+					
+									<div className="text-center my-3" >
+										<Link to="/contact"><button className="btn btn-outline-danger rounded-pill border border-2 border-danger fw-bold px-5 py-2 me-3 ">H I R E <span className="text-warning"
+										>M E</span></button></Link>
+										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-warning rounded-pill border border-2 border-warning fw-bold px-5 py-2 me-3 ">M Y <span className="text-danger">R E S U M E</span></button></a>	
+									</div>
+									
+				</div>
 			</div>
+			
 		</div>
 	);
 };

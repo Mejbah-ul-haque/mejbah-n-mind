@@ -26,9 +26,9 @@ const Footer = () => {
                             '><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-4' to="/breaking">My Projects</Link></p>
                         </div>
                         <div className="col-sm-12 col-md-4 text-center">
-                            <p className='mt-4'><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-5' to="/">Home</Link></p>
-                            <p className=''><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-5' to="/resume">Resume</Link></p>
-                            <p className=''><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-5' to="/login">Login</Link></p>
+                            <p className='mt-4'><Link className='text-decoration-none btn btn-outline-primary rounded-pill px-5' to="/">Home</Link></p>
+                            <p className=''><Link className='text-decoration-none btn btn-outline-primary rounded-pill px-5' to="/resume">Resume</Link></p>
+                            <p className=''><Link className='text-decoration-none btn btn-outline-primary rounded-pill px-5' to="/login">Login</Link></p>
                         </div>
                     </div>
                 </div>
