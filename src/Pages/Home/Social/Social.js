@@ -29,7 +29,7 @@ const Social = () => {
         </div>
         <div className="col">
           <div className=" shadow-lg">
-            <a className='text-decoration-none' target="_blank" href="https://www.linkedin.com/in/md-mejbaul-haque-67b67b71/">
+            <a className='text-decoration-none' target="_blank" href="https://www.linkedin.com/in/mejba-s/">
             <div className="d-flex justify-content-around align-items-center social-one">
             <img className="img-fluid w-25 p-1" src={Linkedin} alt=""></img>
             <h6 className=" py-2 pe-3">Linkedin</h6>

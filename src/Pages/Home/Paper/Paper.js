@@ -7,7 +7,8 @@ const Paper = () => {
 	return (
 		<div className="mt-5">
       <div>
-        <h6 className="text-center text-secondary  fs-5 my-5"><span className="border rounded-pill px-5 py-3">Today's Media</span> </h6>
+			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Click the link & update !</h6>
+            <h2 className='text-light lead-heading text-center mb-5'>Today's Media</h2>
       </div>
 			<Table bordered>
 				<tbody className=" text-center text-light">

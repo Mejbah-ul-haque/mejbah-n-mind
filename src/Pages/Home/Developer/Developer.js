@@ -7,7 +7,8 @@ const Developer = () => {
 	return (
 		<div className=""style={{margin: "150px 0", margin:"350px 0"}}>
       <div>
-        <h6 className="text-center text-secondary  fs-5 my-5"><span className="border rounded-pill border-warning bg-warning text-dark px-5 py-3">For Developer</span> </h6>
+			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>most Useful website links</h6>
+            <h2 className='text-light lead-heading text-center mb-5'>For Developer</h2>
       </div>
 			<Table bordered>
 				<tbody className=" tbody text-center text-light ">

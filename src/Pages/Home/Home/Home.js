@@ -18,11 +18,15 @@ const Home = () => {
 		<div className="container" style={{ minHeight: "100vh" }}>
 			<LeadItem></LeadItem>
 			{/* <Banner></Banner> */}
+			<Goals></Goals>
+			<Services></Services>
 			<TotalSkills></TotalSkills>
 			
+			
 			<div className="" >
-				<div className="lead-shadow ps-4 py-2" style={{backgroundColor: "#021a4e", border:"1px solid rgba(129, 129, 129, 0.534)"}}>
-						<h2 className="text-3xl font-bold text-secondary ">Others Skills</h2>
+				<div className=" ps-4 py-2">
+				<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>2+ Years of experience</h6>
+            <h2 className='text-light lead-heading text-center mb-5'>My Resume</h2>
 					
 				</div>
 				<div className=" my-4 mx-0">
@@ -87,16 +91,15 @@ const Home = () => {
 			</div>
 			
 
-			<Social></Social>
 		
-			<Goals></Goals>
-			<Services></Services>
-			<Social></Social>
+		
+		
 			<About></About>
 			<Special></Special>
 			<Developer></Developer>
 			<Paper></Paper>
 			<Contact></Contact>
+			<Social></Social>
 			
 		</div>
 	);

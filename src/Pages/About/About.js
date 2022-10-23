@@ -7,14 +7,15 @@ const About = () => {
         <div style={{ margin: '250px 0' }} className='container d-block mx-auto'>
 
             <div className="row">
-
-                <div className="col-sm-12 col-md-12 col-xl-10 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#021a4e', border: "1px solid rgba(129, 129, 129, 0.534)" }} className="card lead-shadow">
+            <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>This is myself !!</h6>
+            <h2 className='text-light lead-heading text-center mb-5'>About Me</h2>
+                <div className="col-sm-12 col-md-12 col-xl-12 mx-auto mt-5">
+                    <div style={{ backgroundColor: '#212425', border: "1px solid rgba(129, 129, 129, 0.534)", marginTop:'50px' }} className="card lead-shadow">
                         <div className="row g-0">
                         
                             <div className="col-md-6 d-flex align-items-center p-3">
                                 <div style={{alignItems: 'center'}} className="card-body about-body">
-                                    <h6 className="btn btn-outline-warning">About Myself</h6>
+                                    
                                     <h2 className='fw-bold text-light about-heading'>Md Mejbaul Haque</h2>
                                     <h5 className="text-info">Full Stack Web Developer</h5>
                                     <hr className='p-0 m-1'></hr>
@@ -32,7 +33,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <img style={{opacity: '.8'}} className='w-100' src={mejbah} alt="" />
+                                <img className='w-100 plus-style' src={mejbah} alt="" />
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 .service-image{
-  opacity: 0.6;
+ 
 };
 
 
@@ -12,7 +12,7 @@
  
 }
 .card-background{
-  background-color: #021a4e;
+  background-color: #212428;
   border: 1px solid rgba(129, 129, 129, 0.534);
   border-radius: 0;
 }
@@ -20,3 +20,24 @@
   z-index: 9999;
   margin-top: 100px;
 } */
+
+@media only screen and (max-width: 992px) {
+  .service-image {
+    margin-top: -300px;
+   padding: 30px;
+   
+  }
+  .card-background{
+    margin-top: 260px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .service-image {
+    margin-top: -200px;
+   padding: 30px;
+   
+  }
+  .card-background{
+    margin-top: 180px !important;
+  }
+}

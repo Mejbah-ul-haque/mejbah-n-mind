@@ -6,7 +6,8 @@ const Skills = () => {
     <div>
       <div className="container mx-auto my-5">
 			<div className="">
-				<h2 className="text-3xl font-bold text-secondary">My Skill</h2>
+      <h6 className='text-danger text-center text-uppercase'>What is MY Skills</h6>
+            <h2 className='text-light lead-heading text-center mb-5'>My Resume</h2>
         
 			</div>
 

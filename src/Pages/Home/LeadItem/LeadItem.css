@@ -1,9 +1,10 @@
 
 .lead-card{
   border-style:none;
-  background-color: #021a4e !important;
-  border: 1px solid rgb(93, 92, 92) !important;
+  background-color: #212428 !important;
+  border: 1px solid #212425 !important;
   border-radius: 0;
+  margin-bottom: 100px;
 }
 
 /* .lead-shadow{
@@ -31,13 +32,34 @@
   font-weight: bold;
 }
 .designation-text{
-  color: #ffff03;
+  color: #6598ffbf;
   font-size: 35px;
   font-weight: bold;
 }
 .head-text-body{
   color: lightgray;
   font-size:20px;
+}
+
+.social-first{
+  background-color: #1f2125;
+  color: rgb(210, 207, 207);
+  margin-right: 30px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgb(4, 4, 4);
+  opacity: 0.7;
+  /* border-radius: 10px; */
+  
+  
+  
+}
+
+.social-first:hover{
+  color:rgb(186, 185, 185);
+  background-color: #011338;
+  box-shadow: 5px 5px 10px rgb(7, 7, 7);
+  opacity: 100%;
+  
 }
 
 /* .roted-background {

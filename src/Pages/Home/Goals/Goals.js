@@ -13,8 +13,11 @@ const Goals = () => {
     }, [])
 
     return (
-        <div className='container' style={{marginTop: "300px"}}>
-            <div className='row'>
+        <div className='container' style={{marginTop: "200px"}}>
+            <div className='row ' style={{borderBottom:'2px solid black', marginBottom:'200px'}}>
+                
+            <h6 className='text-danger text-center text-uppercase'>What is MY GOAL</h6>
+            <h2 className='text-light lead-heading text-center mb-5'>My Future Plan</h2>
                 {
                     goals.map(goal => <Goal
                         key={goal.id}

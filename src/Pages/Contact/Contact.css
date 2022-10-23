@@ -1,0 +1,20 @@
+.input-shadow{
+  background-color: #15171a !important;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  border: 2px solid #191b1e !important;
+  color: white !important;
+}
+.input-shadow:hover{
+  background-color: #191b1e !important;
+  
+  border: 2px solid red !important;
+}
+
+.sent-button{
+  background-color: #15171a !important;
+  box-shadow: 0 0 10px 5px #343940;
+  color: white !important;
+}
+.sent-button:hover{
+  background-color: black !important;
+}
