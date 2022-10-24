@@ -23,7 +23,7 @@ const Header = () => {
                         </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav " className='text-secondary bg-secondary' style={{ backgroundColor: '#1f2125'}} />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto ms-5">
+                        <Nav className=" me-auto ms-5">
                             
                             
 
@@ -39,7 +39,12 @@ const Header = () => {
                         </Nav>
                         <Nav className="me-auto ms-5">
                             
-                            
+                            <Nav.Link className='nav-style' as={Link} to="/">HOME</Nav.Link>
+                            <Nav.Link className='nav-style' href="home#services">FEATURES</Nav.Link>
+                            <Nav.Link className='nav-style' href="home#services">BLOG</Nav.Link>
+                            <Nav.Link className='nav-style' href="home#services">PROJECTS</Nav.Link>
+                            <Nav.Link className='nav-style' as={Link} to="/resume">RESUME</Nav.Link>
+                            <Nav.Link className='nav-style' as={Link} to="/journalism/report">JOURNALISM</Nav.Link>
 
                             {/* <NavDropdown className='nav-style text-light' title="News" id="collasible-nav-dropdown">
                                 <NavDropdown.Item as={Link} to="/breaking/3.1">Breaking</NavDropdown.Item>
@@ -52,25 +57,20 @@ const Header = () => {
                             </NavDropdown> */}
                         </Nav>
                         <Nav className="mx-5">
-                        <Nav.Link className='nav-style' as={Link} to="/">HOME</Nav.Link>
-                            <Nav.Link className='nav-style' href="home#services">FEATURES</Nav.Link>
-                            <Nav.Link className='nav-style' href="home#services">BLOG</Nav.Link>
-                            <Nav.Link className='nav-style' href="home#services">PROJECTS</Nav.Link>
-                            {/* <Nav.Link className='nav-style' as={Link} to="/blogs">Blogs</Nav.Link> */}
-                            <Nav.Link className='nav-style' as={Link} to="/resume">RESUME</Nav.Link>
+                            
                             <Nav.Link className='nav-style' as={Link} to="/about">ABOUT</Nav.Link>
                             
                             <Nav.Link className='nav-style' as={Link} to="/contact">CONTACTS</Nav.Link>
-                            <Nav.Link className='nav-style' as={Link} to="/journalism/report">JOURNALISM</Nav.Link>
+                            
                             {user && <Nav.Link className='nav-style' as={Link} to="/dashboard">DASHBOARD</Nav.Link>}
                             
                             
                             {
                                 user ?
-                                    <button style={{ color: 'red' }} className='btn btn-link text-decoration-none text-start' onClick={handleSignOut}>SIGNOUT</button>
+                                    <button  className='nav-style btn btn-link text-decoration-none text-start' onClick={handleSignOut}>SIGNOUT</button>
                                     :
-                                    <Nav.Link style={{ color: '#1f2125' }} as={Link} to="/login">
-                                        Login
+                                    <Nav.Link className='nav-style' as={Link} to="/login">
+                                        LOGIN
                                     </Nav.Link>}
                         </Nav>
                     </Navbar.Collapse>
