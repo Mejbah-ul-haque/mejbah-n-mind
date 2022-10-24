@@ -1,31 +1,17 @@
 .link-style{
-  color: rgba(255, 255, 0, 0.472);
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 0, 0.472);
-  padding: 5px 20px;
-  background-color: #021947;
+  padding: 5px 20px; 
 }
 .link-style:hover{
-  color:red;
-  border: 1px solid red;
-
+  background-color: #003366;
 }
 
 li{
   list-style: none;
   text-decoration: none;
- 
-  
 }
-
-li:hover{
-  
-  
+li:hover{ 
 }
-li .active{
-  background-color: yellow;
-  color:black;
-  color:red;
-  border: 1px solid red;
- 
+li .active{ 
+  background-color: #003366;
 }

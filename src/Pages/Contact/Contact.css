@@ -1,13 +1,13 @@
 .input-shadow{
   background-color: #15171a !important;
   box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-  border: 2px solid #191b1e !important;
+  border: 1px solid #191b1e !important;
   color: white !important;
 }
 .input-shadow:hover{
   background-color: #191b1e !important;
   
-  border: 2px solid red !important;
+  border: 1px solid rgb(0, 110, 255) !important;
 }
 
 .sent-button{
@@ -16,5 +16,36 @@
   color: white !important;
 }
 .sent-button:hover{
-  color: red !important;
+  color: rgb(0, 123, 255) !important;
+  background-color: #003366 !important;
+}
+
+.special-shadow{
+  background-color: #212428;
+  color: rgb(210, 207, 207);
+  padding: 2px;
+  
+  /* border-radius: 10px; */
+  box-shadow: 5px 5px 10px rgb(7, 7, 7);
+  border: 1px solid rgba(129, 129, 129, 0.534);
+  
+}
+
+.special-shadow:hover{
+  color:rgb(186, 185, 185);
+  border: 1px solid rgb(93, 92, 92);
+  background-color: #011338;
+  opacity: 100%;
+  
+}
+.special-shadow-one{
+ border: 1px solid rgb(25, 25, 25)  !important;
+ color:rgb(185, 185, 186);
+}
+.special-shadow-one:hover{
+  
+  border: 1px solid rgb(93, 92, 92);
+ 
+  box-shadow: 5px 5px 10px rgb(7, 7, 7);
+  
 }

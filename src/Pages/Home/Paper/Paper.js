@@ -7,7 +7,7 @@ const Paper = () => {
 	return (
 		<div className="mt-5" style={{borderBottom: '2px solid black', paddingBottom: '100px'}}>
       <div>
-			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Click the link & update !</h6>
+			<h6 className='text-primary text-center text-uppercase'style={{letterSpacing:'3px'}}>Click the link & update !</h6>
             <h2 className='text-light lead-heading text-center mb-5'>Today's Media</h2>
       </div>
 			<Table bordered>
@@ -107,15 +107,15 @@ const Paper = () => {
 			</Table>
 
 			<div className="my-5 d-xl-flex justify-content-center">
-        <a href="https://www.bd-pratidin.com/" target="_blank"><Button variant="outline-secondary text-success" className="m-3"><span className="text-danger">বাংলাদেশ</span> প্রতিদিন</Button></a>
-          <a href="https://www.prothomalo.com/" target="_blank"><Button variant="outline-secondary" className="m-3">প্রথম আলো</Button></a>
+        <a href="https://www.bd-pratidin.com/" target="_blank"><Button variant="outline-secondary text-success" className="social-one m-3"><span className="text-danger">বাংলাদেশ</span> প্রতিদিন</Button></a>
+          <a href="https://www.prothomalo.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3 ">প্রথম আলো</Button></a>
           
-          <a href="https://www.kalerkantho.com/" target="_blank"><Button variant="outline-secondary" className="m-3">কালের কণ্ঠ</Button></a>
-          <a href="https://samakal.com/" target="_blank"><Button variant="outline-secondary" className="m-3">সমকাল</Button></a>
-          <a href="https://www.jugantor.com/" target="_blank"><Button variant="outline-secondary" className="m-3">যুগান্তর</Button></a>
-          <a href="https://www.deshrupantor.com/" target="_blank"><Button variant="outline-secondary" className="m-3">দেশ রূপান্তর</Button></a>
-          <a href="https://www.ittefaq.com.bd/" target="_blank"><Button variant="outline-secondary" className="m-3">ইত্তেফাক</Button></a>
-          <a href="https://www.anandabazar.com/" target="_blank"><Button variant="outline-secondary" className="m-3">আনন্দবাজার</Button></a>
+          <a href="https://www.kalerkantho.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">কালের কণ্ঠ</Button></a>
+          <a href="https://samakal.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">সমকাল</Button></a>
+          <a href="https://www.jugantor.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">যুগান্তর</Button></a>
+          <a href="https://www.deshrupantor.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">দেশ রূপান্তর</Button></a>
+          <a href="https://www.ittefaq.com.bd/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">ইত্তেফাক</Button></a>
+          <a href="https://www.anandabazar.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">আনন্দবাজার</Button></a>
         
 			</div>
 		</div>

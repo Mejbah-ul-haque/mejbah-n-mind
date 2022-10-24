@@ -30,7 +30,7 @@ const LeadItem = () => {
 								<div id="text-body" className="card-body text-body pb-0 ps-0 pe-4">
 									
 									<h2 className="fw-bold lead-heading mt-5">Hi, I'm <span className="text-danger">Mejbah</span></h2>
-									<h4 className="designation-text my-3">WEB ENGINEER</h4>
+									<h4 className="designation-text my-3 ">A   <span className="" style={{color:'yellowgreen'}}> WEB </span>ENGINEER </h4>
 									<p className="text-secondary lh-base head-text-body">
 									Full Stack Web Developer and Designer. 
 									<br></br>
@@ -98,9 +98,9 @@ const LeadItem = () => {
 				<div className="col-12 sent-button" >
 					
 									<div className="text-center my-3" >
-										<Link to="/contact"><button className="btn btn-outline-danger rounded-pill border border-2 border-danger fw-bold px-5 py-2 me-3 ">H I R E <span className="text-warning"
+										<Link to="/contact"><button className="btn btn-outline-primary rounded-pill border border-light fw-bold px-5 py-2 me-3 ">H I R E <span className="text-light"
 										>M E</span></button></Link>
-										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-warning rounded-pill border border-2 border-warning fw-bold px-5 py-2 me-3 ">M Y <span className="text-danger">R E S U M E</span></button></a>	
+										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-light rounded-pill border  border-primary fw-bold px-5 py-2 me-3 ">M Y <span className="text-primary">R E S U M E</span></button></a>	
 									</div>
 									
 				</div>

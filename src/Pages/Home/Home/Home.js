@@ -25,15 +25,15 @@ const Home = () => {
 			
 			<div className=""  style={{borderBottom:'2px solid black', paddingBottom:'100px'}}>
 				<div className=" ps-4 py-2">
-				<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>2+ Years of experience</h6>
+				<h6 className='text-primary text-center text-uppercase'style={{letterSpacing:'3px'}}>2+ Years of experience</h6>
             <h2 className='text-light lead-heading text-center mb-5'>My Resume</h2>
 					
 				</div>
 				<div className=" my-4 mx-0">
 					<ul className=" d-flex flex-wrap justify-content-start text-light mx-0 px-0">
-						<li className="my-3 pe-2 py-1">
+						<li className="my-3 pe-2 py-1 ">
 							<NavLink
-								className="link-style"
+								className="link-style special-shadow py-2"
 								activeClassName="active"
 								to="/home"
 							>
@@ -42,7 +42,7 @@ const Home = () => {
 						</li>
 						<li className="my-3 px-2 py-1 ">
 							<NavLink
-								className="link-style lead-shadow"
+								className="link-style special-shadow py-2"
 								activeClassName="active"
 								to="/home/tools"
 							>
@@ -51,7 +51,7 @@ const Home = () => {
 						</li>
 						<li className="my-3 px-2 py-1">
 							<NavLink
-								className="link-style"
+								className="link-style special-shadow py-2"
 								activeClassName="active"
 								to="/home/journalism"
 							>
@@ -60,7 +60,7 @@ const Home = () => {
 						</li>
 						<li className="my-3 px-2 py-1">
 							<NavLink
-								className="link-style"
+								className="link-style special-shadow py-2"
 								activeClassName="active"
 								to="/home/traveling"
 							>
@@ -69,16 +69,16 @@ const Home = () => {
 						</li>
 						<li className="my-3 px-2 py-1">
 							<NavLink
-								className="link-style"
+								className="link-style special-shadow py-2"
 								activeClassName="active"
 								to="/home/education"
 							>
 								Education
 							</NavLink>
 						</li>
-						<li className="my-3 px-2 py-1">
+						<li className="my-3 px-3 py-1">
 							<NavLink
-								className="link-style"
+								className="link-style special-shadow py-2"
 								activeClassName="active"
 								to="/home/others"
 							>

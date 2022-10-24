@@ -20,15 +20,16 @@ const Footer = () => {
                             <h6 className='text-primary'>A Developer Portfolio website...</h6>
                         </div>
                         <div className="col-sm-12 col-md-4 text-center border-end pt-4">
-                            <p className=''><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-5' to="/about">About</Link></p>
-                            <p className=''><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-4' to="/contact">Contant Me</Link></p>
+                        <p className=''><Link className='text-decoration-none btn  rounded-pill px-4' to="/contact"><span className='social-one px-5 py-2'>Contact</span></Link></p>
+                            <p className=''><Link className='text-decoration-none btn  rounded-pill px-5' to="/about"><span className='social-one px-5 py-2'>About</span></Link></p>
+                            
                             <p className='
-                            '><Link className='text-decoration-none btn btn-outline-warning rounded-pill px-4' to="/breaking">My Projects</Link></p>
+                            '><Link className='text-decoration-none btn  rounded-pill px-4' to="/breaking"><span className='social-one px-5 py-2'>Projects</span></Link></p>
                         </div>
                         <div className="col-sm-12 col-md-4 text-center">
-                            <p className='mt-4'><Link className='text-decoration-none btn btn-outline-primary rounded-pill px-5' to="/">Home</Link></p>
-                            <p className=''><Link className='text-decoration-none btn btn-outline-primary rounded-pill px-5' to="/resume">Resume</Link></p>
-                            <p className=''><Link className='text-decoration-none btn btn-outline-primary rounded-pill px-5' to="/login">Login</Link></p>
+                            <p className='mt-4'><Link className='text-decoration-none btn rounded-pill px-5' to="/"><span className='social-one px-5 py-2'>Home</span></Link></p>
+                            <p className=''><Link className='text-decoration-none btn  rounded-pill px-5' to="/resume"><span className='social-one px-4 py-2'>Resume</span></Link></p>
+                            <p className=''><Link className='text-decoration-none btn rounded-pill px-5' to="/login"><span className='social-one px-5 py-2'>Login</span></Link></p>
                         </div>
                     </div>
                 </div>

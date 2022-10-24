@@ -7,7 +7,7 @@ const Developer = () => {
 	return (
 		<div className=""style={{margin:"150px 0", borderBottom: '2px solid black', paddingBottom: '100px'}}>
       <div>
-			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>most Useful website links</h6>
+			<h6 className='text-primary text-center text-uppercase'style={{letterSpacing:'3px'}}>most Useful website links</h6>
             <h2 className='text-light lead-heading text-center mb-5'>For Developer</h2>
       </div>
 			<Table bordered>
@@ -108,14 +108,14 @@ const Developer = () => {
 			</Table>
 
 			<div className="my-5 d-xl-flex justify-content-center">
-        <a href="https://www.hackerrank.com/" target="_blank"><Button variant="outline-warning" className="m-3">Hackerrank</Button></a>
-          <a href="https://www.geeksforgeeks.org/" target="_blank"><Button variant="outline-warning" className="m-3">GeeksforGeeks</Button></a>
+        <a href="https://www.hackerrank.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">Hackerrank</Button></a>
+          <a href="https://www.geeksforgeeks.org/" target="_blank"><Button variant="outline-primary" className="social-one m-3">GeeksforGeeks</Button></a>
           
-          <a href="https://www.codecademy.com/" target="_blank"><Button variant="outline-warning" className="m-3">Codecademy</Button></a>
-          <a href="https://www.codementor.io/" target="_blank"><Button variant="outline-warning" className="m-3"> Codementor</Button></a>
-          <a href="https://www.hackerearth.com/" target="_blank"><Button variant="outline-warning" className="m-3"> HackerEarth</Button></a>
-          <a href="https://github.com/" target="_blank"><Button variant="outline-warning" className="m-3">GitHub </Button></a>
-          <a href="https://stackoverflow.com/" target="_blank"><Button variant="outline-warning" className="m-3">Stack Overflow</Button></a>
+          <a href="https://www.codecademy.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">Codecademy</Button></a>
+          <a href="https://www.codementor.io/" target="_blank"><Button variant="outline-primary" className=" social-one m-3"> Codementor</Button></a>
+          <a href="https://www.hackerearth.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3"> HackerEarth</Button></a>
+          <a href="https://github.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">GitHub </Button></a>
+          <a href="https://stackoverflow.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">Stack Overflow</Button></a>
         
 			</div>
 		</div>

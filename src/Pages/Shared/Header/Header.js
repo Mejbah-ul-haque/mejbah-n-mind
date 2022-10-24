@@ -19,7 +19,7 @@ const Header = () => {
                 <Container fluid className='mt-3'>
                     <img className='rounded-circle border border-2 border-secondary me-3' style={{width:'70px', height:'70px', background:'#1f2125'}} src='https://i.ibb.co/6ZB0x44/mejbah-icon.png' />
                     <Navbar.Brand className='text-uppercase' style={{ fontSize: "1.5rem", color: 'lightGray' }} as={Link} to="/">
-                        Mejbah<span className='text-danger'> & </span>Mind
+                        Mejbah<span className='text-primary'> & </span>Mind
                         </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav " className='text-secondary bg-secondary' style={{ backgroundColor: '#1f2125'}} />
                     <Navbar.Collapse id="responsive-navbar-nav">

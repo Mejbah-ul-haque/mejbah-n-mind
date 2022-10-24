@@ -24,7 +24,7 @@ const TotalSkills = () => {
   return (
     <div style={{marginBottom: "100px", borderBottom:'2px solid black'}} className="">
       <div className="container mx-auto">
-			<h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>What is my Skills</h6>
+			<h6 className='text-primary text-center text-uppercase'style={{letterSpacing:'3px'}}>What is my Skills</h6>
             <h2 className='text-light lead-heading text-center mb-5'>Programming Skills</h2>
         
 			</div>

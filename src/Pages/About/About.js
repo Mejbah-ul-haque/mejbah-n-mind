@@ -7,19 +7,19 @@ const About = () => {
         <div style={{ margin: '200px 0', borderBottom: '2px solid black', paddingBottom: '100px' }} className='container d-block mx-auto'>
 
             <div className="row">
-            <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>This is myself !!</h6>
+            <h6 className='text-primary text-center text-uppercase'style={{letterSpacing:'3px'}}>This is myself !!</h6>
             <h2 className='text-light lead-heading text-center mb-5'>About Me</h2>
                 <div className="col-sm-12 col-md-12 col-xl-12 mx-auto mt-5">
-                    <div style={{ backgroundColor: '#1f2125', border: "1px solid rgba(129, 129, 129, 0.534)", marginTop:'50px' }} className="card lead-shadow">
+                    <div style={{ backgroundColor: '#212428',  marginTop:'50px' }} className="card lead-shadow">
                         <div className="row g-0">
                         
                             <div className="col-md-6 d-flex align-items-center p-3">
                                 <div style={{alignItems: 'center'}} className="card-body about-body">
                                     
-                                    <h2 className='fw-bold text-light about-heading'>Md Mejbaul Haque</h2>
-                                    <h5 className="text-info">Full Stack Web Developer</h5>
-                                    <hr className='p-0 m-1'></hr>
-                                    <h6 className='fw-bold my-3 text-success'>JavaScript, ES6, ReactJS, React-Router, React-Hooks, Typescript, Axios, Next.JS, HTML5, CSS3, Tailwind CSS, Bootstrap, DaisyUI.</h6>
+                                    <h2 className='fw-bold text-light font-monospace about-heading'>Md Mejbaul Haque</h2>
+                                    <h5 className="text-primary my-3">Full Stack Web Developer</h5>
+                                    
+                                    <h6 className='my-3 fs-5 fw-lighter text-light lh-base'>JavaScript, ES6, ReactJS, NodeJS, ExpressJs, MongoDB, HTML5, CSS3, Tailwind CSS, Bootstrap, DaisyUI.</h6>
                                     <p></p>
                                     <p className="text-secondary about-text-body">I am very passionate about web development. Created several projects using JavaScript, ReactJS, NodeJS, Express.JS, HTML3, CSS3, Tailwind CSS and Bootstrap. With my programming knowledge I can lead your company to greater success -this is my confidence.
                                         <p></p>

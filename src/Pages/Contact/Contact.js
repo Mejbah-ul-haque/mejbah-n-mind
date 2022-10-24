@@ -24,7 +24,7 @@ const Contact = () => {
   }
   return (
     <div  className="container d-block mx-auto p-5" style={{margin: '100px 0'}}>
-      <h6 className='text-danger text-center text-uppercase'style={{letterSpacing:'3px'}}>Please, Sent Message !!</h6>
+      <h6 className='text-primary text-center text-uppercase'style={{letterSpacing:'3px'}}>Please, Sent Message !!</h6>
             <h2 className='text-light lead-heading text-center mb-5'>Contact With Me</h2>
       <div  className="row d-flex">
         <div className="col-sm-12 col-lg-4 lead-shadow">
@@ -44,7 +44,7 @@ const Contact = () => {
 											<p className="text-light text-start">Find with me</p>
 											<div className="d-flex">
 											<div className="social-first lead-shadow">
-											<a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://github.com/Mejbah-ul-haque">											
+											<a className='text-decoration-none shadow-lg' target="_blank" href="https://github.com/Mejbah-ul-haque">											
 											<img className="img-fluid p-1" src={GitHub} alt="" style={{width:'40px'}} ></img>											
 											</a>
 										</div>
@@ -86,7 +86,7 @@ const Contact = () => {
                   <input type="text" className="form-control input-shadow p-3 mb-3 mt-1" placeholder="Subject" name="subject" />
                 <lebel className="text-light ms-2">Write Your Message</lebel>
                   <textarea className="form-control input-shadow p-3 mb-5 mt-1" id="" cols="30" rows="8" placeholder="Your message" name="message" />
-                  <input type="submit" className="btn sent-button p-3 d-block mx-auto px-5 fw-bold text-uppercase w-100" value="Sent Message" />   
+                  <input type="submit" className="btn special-shadow-one p-3 d-block mx-auto px-5 fw-bold text-uppercase w-100 text-primary" value="Sent Message" />   
           </form>
           </div>
         </div>
