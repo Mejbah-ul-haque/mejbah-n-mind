@@ -95,12 +95,12 @@ const LeadItem = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-12 sent-button" >
+				<div className="col-12 sent-button social-one" >
 					
 									<div className="text-center my-3" >
-										<Link to="/contact"><button className="btn btn-outline-primary rounded-pill border border-light fw-bold px-5 py-2 me-3 ">H I R E <span className="text-light"
+										<Link to="/contact"><button className="social-one btn btn-outline-primary bg-dark rounded-pill border border-light fw-bold px-5 py-2 me-3 my-2 ">H I R E <span className="text-warning"
 										>M E</span></button></Link>
-										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-light rounded-pill border  border-primary fw-bold px-5 py-2 me-3 ">M Y <span className="text-primary">R E S U M E</span></button></a>	
+										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="social-one btn btn-outline-light bg-dark rounded-pill border  border-primary fw-bold px-4 py-2 me-3 my-2 "><span className="text-primary">M Y </span>R E S U M E</button></a>	
 									</div>
 									
 				</div>

@@ -13,14 +13,14 @@ const Service = ({ service }) => {
 	return (
 		
 		 <div className=' col-12' style={{margin:"50px 0 100px 0"}}>
-            <div className="card-style text-warning text-center sent-button row p-0" style={{ backgroundColor: 'black' }}>
+            <div className="card-style text-warning text-center footer-one sent-button row p-0" style={{ backgroundColor: 'black' }}>
                     <h4 className=' py-2 px-4 text-primary fw-light'> {name}</h4>
                     
             </div>
             <div className="d-flex justify-content-center my-3">
-                <a target='_blank' href={clientCode}><button className='btn btn-outline-secondary   m-3'>GitHub Client</button></a>
-                <a target='_blank' href={live}><button className='btn btn-outline-secondary rounded-pill m-3'>Live site</button></a>
-                <a target='_blank' href={serverCode}><button className='btn btn-outline-secondary  m-3'>GitHub Server</button></a>
+                <a target='_blank' href={clientCode}><button className='social-one btn btn-outline-secondary   m-3'>GitHub Client</button></a>
+                <a target='_blank' href={live}><button className='social-one btn btn-outline-secondary rounded-pill m-3'>Live site</button></a>
+                <a target='_blank' href={serverCode}><button className='social-one btn btn-outline-secondary  m-3'>GitHub Server</button></a>
             </div>
             <div className='row text-center lead-shadow card-background p-4'>
                 
@@ -35,8 +35,8 @@ const Service = ({ service }) => {
                         <h4 className=' text-sm-center text-lg-start text-secondary fw-light'>Technologies :</h4>
                         <p className='text-light text-sm-center text-lg-start'>  {technologies}</p>
 
-                        <div className=" w-100 mt-5" style={{background:'#505862'}}>
-                        <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-danger border-dark rounded-0 fw-bold text-uppercase py-2 text-primary' style={{background:'black'}} >Explore More...</button> 
+                        <div className="special-shadow-one w-100 mt-5" style={{background:'#505862'}}>
+                        <button onClick={() => navigateToServiceDetail(_id)} className='btn px-4 btn-outline-dark border-2 fw-bold text-uppercase' style={{margin:'2px'}}  >Explore More...</button> 
                         </div>
                     </div>
                 </div>
