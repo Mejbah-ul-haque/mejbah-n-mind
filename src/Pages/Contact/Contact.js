@@ -41,23 +41,25 @@ const Contact = () => {
             <h5 class="text-secondary fs-5">Web Designer</h5> */}
             <p class="card-text text-light my-4">I am available for work. Connect with me via social media and call in to my account</p>
             <div>
-											<p className="text-light text-start">Find with me</p>
-											<div className="d-flex">
-											<div className="social-first lead-shadow">
-											<a className='text-decoration-none shadow-lg' target="_blank" href="https://github.com/Mejbah-ul-haque">											
-											<img className="img-fluid p-1" src={GitHub} alt="" style={{width:'40px'}} ></img>											
-											</a>
-										</div>
-										<div className=" lead-shadow social-first">
-											<a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://www.linkedin.com/in/mejba-s/">
-											<img className="img-fluid p-1" src={Linkedin} alt="" style={{width:'40px'}} ></img>											
-											</a>
-										</div>
-										<div className=" lead-shadow social-first">
-											<a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://www.behance.net/mejbahulhaque">
-											<img className="img-fluid p-1" src={Behance} alt="" style={{width:'40px'}} ></img>											
-											</a>
-										</div>
+											<p className="text-center text-secondary">Find with me</p>
+											<div className="d-flex justify-content-center">
+                        <div className="social-first lead-shadow">
+                          <a className='text-decoration-none shadow-lg' target="_blank" href="https://github.com/Mejbah-ul-haque">											
+                            <img className="img-fluid w-sm-50" src={GitHub} alt="" style={{width:'40px'}} ></img>											
+                          </a>
+                      </div>
+                      <div className=" lead-shadow social-first">
+                          <a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://www.linkedin.com/in/mejba-s/">
+                            
+                          <img className="img-fluid w-sm-50" src={Linkedin} alt="" style={{width:'40px'}} ></img>									
+                          
+                          </a>
+                      </div>
+                      <div className="lead-shadow social-first">
+                          <a className='text-decoration-none shadow-lg lead-shadow' target="_blank" href="https://www.behance.net/mejbahulhaque">
+                            <img className="img-fluid w-sm-50" src={Behance} alt="" style={{width:'40px'}} ></img>											
+                          </a>
+                      </div>
 											</div>
 										</div>
           </div>
@@ -86,7 +88,7 @@ const Contact = () => {
                   <input type="text" className="form-control input-shadow p-3 mb-3 mt-1" placeholder="Subject" name="subject" />
                 <lebel className="text-light ms-2">Write Your Message</lebel>
                   <textarea className="form-control input-shadow p-3 mb-5 mt-1" id="" cols="30" rows="8" placeholder="Your message" name="message" />
-                  <input type="submit" className="btn special-shadow-one p-3 d-block mx-auto px-5 fw-bold text-uppercase w-100 text-primary" value="Sent Message" />   
+                  <input type="submit" className="btn special-shadow-one p-3 d-block mx-auto px-5 fw-bold text-uppercase text-primary" value="Sent Message" />   
           </form>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Developer = () => {
             <h2 className='text-light lead-heading text-center mb-5'>For Developer</h2>
       </div>
 			<Table bordered>
-				<tbody className=" tbody text-center text-light ">
+				<tbody className="tbody text-center text-light ">
 					<tr className="">
 						<td className="paper_text_color_yellow">
 							<a
@@ -106,18 +106,116 @@ const Developer = () => {
 					
 				</tbody>
 			</Table>
-
-			<div className="my-5 d-xl-flex justify-content-center">
-        <a href="https://www.hackerrank.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">Hackerrank</Button></a>
-          <a href="https://www.geeksforgeeks.org/" target="_blank"><Button variant="outline-primary" className="social-one m-3">GeeksforGeeks</Button></a>
-          
-          <a href="https://www.codecademy.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">Codecademy</Button></a>
-          <a href="https://www.codementor.io/" target="_blank"><Button variant="outline-primary" className=" social-one m-3"> Codementor</Button></a>
-          <a href="https://www.hackerearth.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3"> HackerEarth</Button></a>
-          <a href="https://github.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">GitHub </Button></a>
-          <a href="https://stackoverflow.com/" target="_blank"><Button variant="outline-primary" className="social-one m-3">Stack Overflow</Button></a>
-        
-			</div>
+			<div className="row row-cols-3 row-cols-md-6 row-cols-xl-6 mt-4 g-4">
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.hackerrank.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Hackerran</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.geeksforgeeks.org/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">GeeksforGeeks</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.codementor.io/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Codecademy</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://samakal.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Codementor</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://stackoverflow.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Stack Overflow</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.hackerearth.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">HackerEarth</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.hackerrank.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Hackerran</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.geeksforgeeks.org/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">GeeksforGeeks</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.codementor.io/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Codecademy</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://samakal.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Codementor</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://stackoverflow.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">Stack Overflow</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.hackerearth.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">HackerEarth</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
 		</div>
 	);
 };

@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='container-fluid py-5 text-light'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-4 text-center  pt-4">
+                        <div className="col-sm-12 col-md-4 text-center pt-4">
                              <div className='footer-one py-1'>
                              <img className='rounded-circle border border-2 border-secondary text-light me-3' style={{width:'70px', height:'70px', background:'#1f2125'}} src='https://i.ibb.co/6ZB0x44/mejbah-icon.png' />
                             <h2>Mejbah <span className='text-primary fw-light'>&</span> Mind</h2>

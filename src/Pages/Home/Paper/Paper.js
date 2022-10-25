@@ -12,8 +12,8 @@ const Paper = () => {
       </div>
 			<Table bordered>
 				<tbody className=" text-center text-light">
-					<tr className="text-secondary">
-						<td className="paper_text_color_css ">
+					<tr className="">
+						<td className="paper_text_color_css">
 							<a
 								href="https://www.theguardian.com/"
 								target="_blank"
@@ -106,18 +106,117 @@ const Paper = () => {
 				</tbody>
 			</Table>
 
-			<div className="my-5 d-xl-flex justify-content-center">
-        <a href="https://www.bd-pratidin.com/" target="_blank"><Button variant="outline-secondary text-success" className="social-one m-3"><span className="text-danger">বাংলাদেশ</span> প্রতিদিন</Button></a>
-          <a href="https://www.prothomalo.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3 ">প্রথম আলো</Button></a>
-          
-          <a href="https://www.kalerkantho.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">কালের কণ্ঠ</Button></a>
-          <a href="https://samakal.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">সমকাল</Button></a>
-          <a href="https://www.jugantor.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">যুগান্তর</Button></a>
-          <a href="https://www.deshrupantor.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">দেশ রূপান্তর</Button></a>
-          <a href="https://www.ittefaq.com.bd/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">ইত্তেফাক</Button></a>
-          <a href="https://www.anandabazar.com/" target="_blank"><Button variant="outline-secondary" className="social-one m-3">আনন্দবাজার</Button></a>
-        
-			</div>
+		
+			<div className="row row-cols-3 row-cols-md-6 row-cols-xl-6 mt-4 g-4">
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.bd-pratidin.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2 text-danger">বাংলাদেশ <span className="text-success">প্রতিদিন</span></h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.prothomalo.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">প্রথম আলো</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.kalerkantho.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">কালের কণ্ঠ</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://samakal.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">সমকাল</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.jugantor.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">যুগান্তর</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.anandabazar.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">আনন্দবাজার</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.ittefaq.com.bd/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">ইত্তেফাক</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.prothomalo.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">কালবেলা</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.jaijaidinbd.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2 text-primary"><em>যায়যায়দিন</em></h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://mzamin.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2 text-danger"><em>মানবজমিন</em></h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://bangla.bdnews24.com/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2 text-danger">bdnews24.com</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <div className=" shadow-lg">
+            <a className='text-decoration-none' target="_blank" href="https://www.thedhakapost.com/bn/">
+            <div className="text-center social-one">
+            <h6 className=" pt-2">ঢাকা পোস্ট</h6>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>	
 		</div>
 	);
 };

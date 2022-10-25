@@ -1,6 +1,6 @@
 .link-style{
   text-decoration: none;
-  padding: 5px 20px; 
+  padding: 5px 20px !important; 
 }
 .link-style:hover{
   background-color: #003366;

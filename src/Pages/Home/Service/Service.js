@@ -18,7 +18,7 @@ const Service = ({ service }) => {
                     
             </div>
             <div className="d-flex justify-content-center my-3">
-                <a target='_blank' href={clientCode}><button className='social-one btn btn-outline-secondary   m-3'>GitHub Client</button></a>
+                <a target='_blank' href={clientCode}><button className='social-one btn btn-outline-secondary m-3'>GitHub Client</button></a>
                 <a target='_blank' href={live}><button className='social-one btn btn-outline-secondary rounded-pill m-3'>Live site</button></a>
                 <a target='_blank' href={serverCode}><button className='social-one btn btn-outline-secondary  m-3'>GitHub Server</button></a>
             </div>

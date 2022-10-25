@@ -157,14 +157,14 @@ const TotalSkills = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				{/* <div class="col">
 					<div class="card text-white skill-bg">
 						<img src={VScode} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
 							<h5 class="card-title text-primary fw-bold border-bottom border-2 border-dark pb-3">VS Code</h5>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Stripe} class="card-img logo-imag pb-3" alt="..." />
@@ -181,14 +181,14 @@ const TotalSkills = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				{/* <div class="col">
 					<div class="card text-white skill-bg">
 						<img src={Canva} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
 							<h5 class="card-title fw-bold border-bottom border-2 border-dark text-info pb-3" style={{color:"#7e12f9"}}>Canva</h5>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
   );

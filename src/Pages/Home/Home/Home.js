@@ -29,8 +29,9 @@ const Home = () => {
             <h2 className='text-light lead-heading text-center mb-5'>My Resume</h2>
 					
 				</div>
+				
 				<div className=" my-4 mx-0">
-					<ul className=" d-flex flex-wrap justify-content-start text-light mx-0 px-0">
+					<ul className=" d-flex flex-wrap justify-content-center text-light mx-0 px-0">
 						<li className="my-3 pe-2 py-1 ">
 							<NavLink
 								className="link-style special-shadow py-2"
@@ -40,7 +41,7 @@ const Home = () => {
 								Programming
 							</NavLink>
 						</li>
-						<li className="my-3 px-2 py-1 ">
+						<li className="my-3 px-2 py-1">
 							<NavLink
 								className="link-style special-shadow py-2"
 								activeClassName="active"

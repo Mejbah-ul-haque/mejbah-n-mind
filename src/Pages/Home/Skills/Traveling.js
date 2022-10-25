@@ -7,7 +7,7 @@ import Scotland from "../../../../src/Images/Traveling/Scotland.png";
 import Wales from "../../../../src/Images/Traveling/Wales.png";
 import UAE from "../../../../src/Images/Traveling/UAE.png";
 import Oman from "../../../../src/Images/Traveling/Oman.png";
-import Australia from "../../../../src/Images/Traveling/Australia.png";
+// import Australia from "../../../../src/Images/Traveling/Australia.png";
 
 const Traveling = () => {
   return (
@@ -77,14 +77,14 @@ const Traveling = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-3 col-xl-2 col-xxl-2">
+				{/* <div class="col-xs-6 col-sm-6 col-md-3 col-xl-2 col-xxl-2">
 					<div class="card text-white skill-bg">
 						<img src={Australia} class="card-img logo-imag pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
 							<h5 class="card-title fw-bold border-bottom border-2 border-dark pb-3" style={{color:"#7e12f9"}}>Australia</h5>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				
 			</div>
 		</div>

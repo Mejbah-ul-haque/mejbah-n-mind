@@ -87,7 +87,7 @@ const LeadItem = () => {
 									</div>
 								</div>
 							</div>
-							<div  className="col-md-10 col-lg-5 rounded roted-background mx-auto " style={{marginTop:'200px'}}>
+							<div  className="col-md-10 col-lg-5 rounded roted-background  mx-auto " style={{marginTop:'200px'}}>
 								<div className="lead-shadow" >
 								<img className="roted-imag lead-shado w-100 pe-3 pt-4 " src={mejbah} alt="" style={{marginTop: '-195px'}} />
 								</div>
@@ -95,12 +95,12 @@ const LeadItem = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-12 sent-button social-one" >
+				<div className="col-12 sent-button" style={{background:'#15171a'}}>
 					
 									<div className="text-center my-3" >
-										<Link to="/contact"><button className="social-one btn btn-outline-primary bg-dark rounded-pill border border-light fw-bold px-5 py-2 me-3 my-2 ">H I R E <span className="text-warning"
+										<Link to="/contact"><button className="social-one btn btn-dark rounded-pill border border-light fw-bold px-5 py-2 me-3 my-2 ">H I R E <span className="text-primary"
 										>M E</span></button></Link>
-										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="social-one btn btn-outline-light bg-dark rounded-pill border  border-primary fw-bold px-4 py-2 me-3 my-2 "><span className="text-primary">M Y </span>R E S U M E</button></a>	
+										<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="social-one btn btn-dark rounded-pill border  border-primary fw-bold px-4 py-2 me-3 my-2 "><span className="text-primary">M Y </span>R E S U M E</button></a>	
 									</div>
 									
 				</div>
