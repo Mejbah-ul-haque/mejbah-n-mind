@@ -32,17 +32,18 @@ function App() {
     <div style={{backgroundColor: '#212428'}}> 
       <Header></Header>
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/' element={<Home></Home>}>
+          <Route index element={<Programming></Programming>}></Route>
+        </Route>
         <Route path='/home' element={<Home></Home>}>
           {/* <Route index element={<Skills></Skills>}></Route> */}
           <Route index element={<Programming></Programming>}></Route>
-          
-          {/* <Route path="programming" element={<Programming></Programming>}></Route> */}
           <Route path="tools" element={<Tools></Tools>}></Route>
           <Route path="journalism" element={<Journalism></Journalism>}></Route>
           <Route path="traveling" element={<Traveling></Traveling>}></Route>
           <Route path="education" element={<Education></Education>}></Route>
           <Route path="others" element={<Others></Others>}></Route>
+          
           
         </Route>
         <Route path='/service/:id' element={<ServiceDetail></ServiceDetail>}></Route>
