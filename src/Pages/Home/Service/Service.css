@@ -14,8 +14,22 @@
 .card-background{
   background-color: #212428;
   
-  border-radius: 0;
 }
+
+.work-card{
+  /* height: 325px;
+  position: relative; */
+  
+}
+
+.work-button{
+  /* background-color: #505862;
+  position: absolute;
+  bottom: 25px;
+  right: 0; */
+  
+}
+
 /* .Others_bg{
   z-index: 9999;
   margin-top: 100px;

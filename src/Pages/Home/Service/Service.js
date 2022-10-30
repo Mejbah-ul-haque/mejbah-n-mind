@@ -1,4 +1,70 @@
-import React from "react";
+import React from 'react';
+import { useNavigate } from "react-router-dom";
+import "./Service.css";
+
+const Service = ({ service }) => {
+  
+  const { _id, name, project, image, technologies, features, live, clientCode, serverCode } = service;
+
+	const navigate = useNavigate();
+	const navigateToServiceDetail = (id) => {
+		navigate(`/service/${id}`);
+	};
+  
+  return (
+    <div className=' col-12' style={{margin:"50px 0"}}>
+      
+      <div className="text-warning text-center footer-one sent-button p-0" >
+          <h4 className=' py-2 px-4 text-secondary fs-5 font-monospace fw-light'> {name}</h4>
+          </div>
+            <div className="d-flex justify-content-center my-3">
+                {/* <a target='_blank' href={clientCode}><button className='social-one btn btn-outline-secondary m-3'>GitHub Client</button></a>
+                <a target='_blank' href={live}><button className='social-one btn btn-outline-secondary rounded-pill m-3'>Live site</button></a>
+                <a target='_blank' href={serverCode}><button className='social-one btn btn-outline-secondary  m-3'>GitHub Server</button></a> */}
+            </div>
+            <div className='card work-card bg-dark text-center border-secondary footer-one rounded-0 p-2'>                               
+				    <img className='w-100 p-3' src={image} alt="" />
+			    
+                <div class="card-body bg-dark ">
+                <a target='_blank' href={live} className="text-decoration-none "><button className='social-one fw-bold d-block mx-auto px-4 py-1 text-center mb-3' style={{marginTop:"-50px", backgroundColor:"red"}}>live</button></a>
+                    <div className="text-lg-start">
+                        {/* <h4 className='text-sm-center text-lg-start text-secondary fw-light'>Key Features :</h4> */}
+
+                        {/* <p className=' text-secondary text-sm-center text-lg-start '>  {features}</p> */}
+                        {/* <h4 className=' text-sm-center text-lg-start text-secondary fw-light'>Technologies :</h4> */}
+                        {/* <p className='text-light text-sm-center text-lg-start'>  {technologies}</p> */}
+
+                        <div className="special-shadow-one  border-secondary bg-secondary text-center work-button">
+                        <button onClick={() => navigateToServiceDetail(_id)} className='btn  px-4 btn-outline-dark border-2 fw-bold text-uppercase' style={{margin:'2px'}}  >Explore More...</button> 
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+        </div>
+  );
+};
+
+export default Service;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Service.css";
 
@@ -43,7 +109,7 @@ const Service = ({ service }) => {
                 
                 
             </div>
-        </div>
+        </div> */
         
         // <div class="card mb-3" style="max-width: 540px;">
 		// 	<div class="row g-0">
@@ -84,7 +150,7 @@ const Service = ({ service }) => {
         //         <button onClick={() => navigateToServiceDetail(_id)} className='service-btn btn px-4 btn-outline-success rounded-pill py-2 my-3' >See Details</button>
         //     </div>
         // </div>
-	);
-};
+// 	);
+// };
 
-export default Service;
+// export default Service;

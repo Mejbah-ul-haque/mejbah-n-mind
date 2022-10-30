@@ -12,14 +12,19 @@ import Social from "../Social/Social";
 import { NavLink, Outlet } from "react-router-dom";
 import "./Home.css";
 import TotalSkills from "../Skills/TotalSkills";
+import Services1 from "../Services/Services1";
+import Services2 from "../Services/Services2";
 
 const Home = () => {
 	return (
 		<div className="container" style={{ minHeight: "" }}>
 			<LeadItem></LeadItem>
 			{/* <Banner></Banner> */}
-			<Goals></Goals>
+			
+			
 			<Services></Services>
+			<Goals></Goals>
+			<Services2></Services2>
 			<TotalSkills></TotalSkills>
 			
 			
@@ -101,6 +106,7 @@ const Home = () => {
 			<Paper></Paper>
 			<Contact></Contact>
 			<Social></Social>
+			<Services1></Services1>
 			
 		</div>
 	);
