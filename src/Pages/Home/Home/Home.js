@@ -20,12 +20,10 @@ const Home = () => {
 		<div className="container" style={{ minHeight: "" }}>
 			<LeadItem></LeadItem>
 			{/* <Banner></Banner> */}
-			
-			
 			<Services></Services>
-			<Goals></Goals>
 			<Services2></Services2>
 			<TotalSkills></TotalSkills>
+			<Goals></Goals>
 			
 			
 			<div className=""  style={{borderBottom:'2px solid black', paddingBottom:'100px'}}>
