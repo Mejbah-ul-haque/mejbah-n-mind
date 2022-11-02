@@ -9,6 +9,8 @@ import cssLogo from "../../../../src/Images/Programming/css3.png";
 import Tailwind from "../../../../src/Images/Programming/tailwind.png";
 import Bootstrap from "../../../../src/Images/Programming/bootstrap5.png";
 import daisyUI from "../../../../src/Images/Programming/daisyui.png";
+import Git from "../../../../src/Images/Tools/git.png";
+import GitHub from "../../../../src/Images/Tools/github.png";
 
 import "./Programming.css";
 
@@ -93,6 +95,22 @@ const Programming = () => {
 						<img src={daisyUI} class="card-img logo-image pb-3" alt="..." />
 						<div class="card-img-overlay text-center lead-style">
 							<h5 class="card-title fw-bold border-bottom border-2 border-dark pb-3" style={{color:"yellow"}}>daisyUI</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card text-white skill-bg">
+						<img src={Git} class="card-img logo-image pb-3" alt="..." />
+						<div class="card-img-overlay text-center lead-style">
+							<h5 class="card-title fw-bold border-bottom border-2 border-dark pb-3 text-danger" style={{color:"red"}}>Git</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card text-white skill-bg">
+						<img src={GitHub} class="card-img logo-image pb-3" alt="..." />
+						<div class="card-img-overlay text-center lead-style">
+							<h5 class="card-title fw-bold border-bottom border-2 border-dark pb-3" style={{color:"white"}}>GitHub</h5>
 						</div>
 					</div>
 				</div>

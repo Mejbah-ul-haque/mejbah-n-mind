@@ -1,5 +1,5 @@
 import React from "react";
-import resume1 from "../../Images/Resume/resume1.jpg";
+import resume1 from "../../Images/Resume/resume.png";
 import resume2 from "../../Images/Resume/resume2.jpg";
 import resume from "../../Images/Resume/md_mejbaul_haque_resume.pdf";
 import { jsPDF } from "jspdf";
@@ -22,12 +22,10 @@ const Resume = () => {
 				</button>
 			</a>
 			<div className="row">
-				<div className="col-sm-12 col-lg-6 mt-3">
+				<div className="col mt-3">
 					<img className="img-fluid" src={resume1} alt="resume first page" />
 				</div>
-				<div className="col-sm-12 col-lg-6 mt-3">
-					<img className="img-fluid" src={resume2} alt="resume second page" />
-				</div>
+				
 			</div>
 		</div>
 	);

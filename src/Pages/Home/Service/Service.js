@@ -35,7 +35,7 @@ const Service = ({ service }) => {
                         {/* <p className='text-light text-sm-center text-lg-start'>  {technologies}</p> */}
 
                         <div className="special-shadow-one  border-secondary bg-secondary text-center work-button">
-                        <button onClick={() => navigateToServiceDetail(_id)} className='btn  px-4 btn-outline-dark border-2 fw-bold text-uppercase' style={{margin:'2px'}}  >Explore More...</button> 
+                        <button onClick={() => navigateToServiceDetail(_id)} className='btn  px-4 btn-outline-dark border-2 fw-bold text-uppercase' style={{margin:'2px'}}  >Explore...</button> 
                         </div>
                     </div>
                 </div>
