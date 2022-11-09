@@ -15,7 +15,7 @@ const Service = ({ service }) => {
     <div className=' col-12' style={{margin:"50px 0"}}>
       
       <div className="text-warning text-center footer-one sent-button p-0" >
-          <h4 className=' py-2 px-4 text-secondary fs-5 font-monospace fw-light'> {name}</h4>
+          <h4 className=' py-2 text-secondary fs-6 font-monospace fw-light'> {name}</h4>
           </div>
             <div className="d-flex justify-content-center my-3">
                 {/* <a target='_blank' href={clientCode}><button className='social-one btn btn-outline-secondary m-3'>GitHub Client</button></a>

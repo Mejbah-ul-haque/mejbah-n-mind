@@ -7,6 +7,7 @@ import Facebook from "../../../Images/Social/facebook.png";
 import Instagram from "../../../Images/Social/Instagram.png";
 import Twitter from "../../../Images/Social/twitter.png";
 import Behance from "../../../Images/Social/behance.png";
+import { motion } from "framer-motion"
 // import background from "../../../Images/Resume/vc.png";
 
 import "./LeadItem.css";
@@ -27,6 +28,8 @@ const LeadItem = () => {
 					<div className="card lead-card" >
 						<div  className="row g-0">
 							<div className="col-md-12 col-lg-7 d-flex align-items-end">
+								
+									
 								<div id="text-body" className="card-body text-body pb-0 ps-0 pe-4">
 									
 									<h2 className="fw-bold lead-heading mt-5">Hi, I'm <span className="text-danger">Mejbah</span></h2>
@@ -86,10 +89,14 @@ const LeadItem = () => {
 										
 									</div>
 								</div>
+									
+							
 							</div>
 							<div  className="col-md-10 col-lg-5 rounded roted-background  mx-auto " style={{marginTop:'200px'}}>
 								<div className="lead-shadow" >
+								<motion.div animate={{y:0, scale:1}} initial={{scale:0}} >
 								<img className="roted-imag lead-shado w-100 pe-3 pt-4 " src={mejbah} alt="" style={{marginTop: '-195px'}} />
+								</motion.div>
 								</div>
 							</div>
 						</div>

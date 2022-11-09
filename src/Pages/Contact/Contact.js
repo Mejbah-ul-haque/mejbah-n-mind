@@ -36,7 +36,7 @@ const Contact = () => {
             <h5 class="text-light fs-5 fw-bold">MD MEJBAUL HAQUE</h5>
             <h5 class="text-info fs-5">Web Engineer</h5>
             <h5 class="text-secondary fw-lighter fs-6 mt-43">WhatsApp: <span className='text-light '>+8801917544593</span> </h5>
-            <h5 class="text-secondary fw-lighter fs-6">Email: <span className='text-primary fw-bold '>mejba.s@gmail.com</span> </h5>
+            <h5 class="text-secondary fw-lighter fs-6">Email: <span className='text-primary'>mejbah.web@gmail.com</span> </h5>
             {/* <h5 class="text-secondary fs-6">MERN Stack Developer</h5>
             <h5 class="text-secondary fs-5">Web Designer</h5> */}
             <p class="card-text text-light my-4">I am available for work. Connect with me via social media and call in to my account</p>

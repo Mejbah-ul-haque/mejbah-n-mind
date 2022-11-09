@@ -23,7 +23,7 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-6 col-md-4 text-center pt-4">
                         <p className=''><Link className='text-decoration-none btn  rounded-pill px-4' to="/contact"><span className='footer-one py-2' style={{padding:'0 43px'}}>Contact</span></Link></p>
-                            <p className=''><Link className='text-decoration-none btn  rounded-pill px-5' to="/about"><span className='footer-one px-5 py-2'>About</span></Link></p>
+                            <p className=''><Link className='text-decoration-none btn  rounded-pill px-5' to="/about"><span className='footer-one px-4 py-2'>About</span></Link></p>
                             
                             <p className='
                             '><Link className='text-decoration-none btn  rounded-pill px-4' to="/breaking"><span className='footer-one py-2' style={{padding:'0 42px'}}>Projects</span></Link></p>

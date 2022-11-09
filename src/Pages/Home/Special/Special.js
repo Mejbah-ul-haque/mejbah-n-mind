@@ -19,9 +19,9 @@ const Special = () => {
                             </div>
                             <div className="col-lg-6 d-flex align-items-center">
                                 <div className="card-body text-sm-center text-lg-start text-secondary pb-0">
-                                    <h4 className="card-title text-light">Why Web Development is my passion?</h4>
+                                    <h5 className="card-title text-light">Why Web Development is my passion?</h5>
                                     <p className="card-text">
-                                        Suppose we take a look at the journalist job description. In that case, we’ll find it includes writing for local or national news organisations to keep readers up to date with current affairs and what is happening in the community around them.
+                                    Web development and design help to promote a company’s brand name. Essentially, if a firm’s website is accessible via the World Wide Web, the company is considered operating on a worldwide scale. 
 
                                         
                                     </p>
