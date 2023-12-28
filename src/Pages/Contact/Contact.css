@@ -47,7 +47,7 @@
 .special-shadow-one:hover{
   color:white !important;
   border: 1px solid rgb(93, 92, 92) !important;
-  background-color: #003366;
+  /* background-color: #003366; */
   box-shadow: 5px 5px 10px rgb(7, 7, 7);
   
 }
